@@ -1,0 +1,9 @@
+import type { InputManager } from '../input/manager';
+export function deviceFields(input:InputManager){
+  const pads=input.pads();return `<div class="device-fields">${[0,1].map(i=>`<label>JOGADOR ${i+1}<select aria-label="Dispositivo jogador ${i+1}" data-device="${i}"><option value="keyboard" ${input.prefs.devices[i]==='keyboard'?'selected':''}>Teclado ${i+1}</option>${pads.map(p=>`<option value="pad:${p.index}" ${input.prefs.devices[i]===`pad:${p.index}`?'selected':''}>Controle ${p.index+1}</option>`).join('')}${input.prefs.devices[i]!=='keyboard'&&!pads.some(p=>input.prefs.devices[i]===`pad:${p.index}`)?`<option value="${input.prefs.devices[i]}" selected>Desconectado — escolha outro</option>`:''}</select></label>`).join('')}<button id="confirm-devices">CONFIRMAR DISPOSITIVOS</button><span id="device-message" role="status"></span></div>`;
+}
+export function bindDevices(root:HTMLElement,input:InputManager){
+  const message=root.querySelector<HTMLElement>('#device-message')!;
+  root.querySelectorAll<HTMLSelectElement>('[data-device]').forEach(select=>select.onchange=()=>{const i=Number(select.dataset.device),error=input.assign(i,select.value);message.textContent=error??'Dispositivo atribuído. Solte os botões para jogar.';if(error)select.value=input.prefs.devices[i];});
+  root.querySelector<HTMLButtonElement>('#confirm-devices')!.onclick=()=>{let error:string|null=null;root.querySelectorAll<HTMLSelectElement>('[data-device]').forEach(s=>{error=input.assign(Number(s.dataset.device),s.value)??error;});message.textContent=error??'Dispositivos confirmados.';};
+}

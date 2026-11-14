@@ -1,0 +1,7 @@
+Generated with the built-in image generation tool, using `public/assets/portraits/joao.png` as the identity reference.
+
+Output: `public/assets/portraits/joao-menu-v2.png` (transparent PNG).
+
+Prompt:
+
+Use case: identity-preserve. Asset type: high-quality full-body character portrait for Fight Nerds game menu. Reference image 1 is João, the exact character to preserve. Create a NEW fully redrawn, polished high-resolution 2D fighting-game character illustration of this same João, not a crop, not an enlarged low-resolution sprite. Preserve his exact recognizable facial structure, tan skin tone, short voluminous black hair, black rectangular glasses, short dark beard and mustache, muscular stocky build, burgundy red short-sleeved T-shirt, dark charcoal shorts and dark flip-flops. Preserve arm tattoo markings from reference without adding new designs. Keep his distinctive features, silhouette, colors and personality. Full body from hair to sandals entirely visible, three-quarter facing right, fists raised in fighting guard, grounded natural stance. Crisp clean ink outlines, refined cel shading, carefully drawn face, hands, clothing folds and anatomy, richly detailed arcade character illustration, not photorealistic, not blurry or blocky pixel enlargement. One single character centered on genuinely transparent background, tight but safe framing with 5 percent margin around all extremities. No scenery, no panel, no text, no logo, no watermark, no extra characters. The goal is faithful higher-quality new artwork of João, not redesigning him.

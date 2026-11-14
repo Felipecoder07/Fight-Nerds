@@ -1,0 +1,4712 @@
+{
+  "kaio": [
+    {
+      "frame": "attacks/0",
+      "sourceHeight": 133,
+      "previousHeight": 70,
+      "displayHeight": 128
+    },
+    {
+      "frame": "attacks/1",
+      "sourceHeight": 133,
+      "previousHeight": 69,
+      "displayHeight": 126.17142857142856
+    },
+    {
+      "frame": "attacks/2",
+      "sourceHeight": 132,
+      "previousHeight": 69,
+      "displayHeight": 126.17142857142856
+    },
+    {
+      "frame": "attacks/3",
+      "sourceHeight": 133,
+      "previousHeight": 70,
+      "displayHeight": 128
+    },
+    {
+      "frame": "attacks/4",
+      "sourceHeight": 133,
+      "previousHeight": 69,
+      "displayHeight": 126.17142857142856
+    },
+    {
+      "frame": "attacks/5",
+      "sourceHeight": 133,
+      "previousHeight": 69,
+      "displayHeight": 126.17142857142856
+    },
+    {
+      "frame": "attacks/6",
+      "sourceHeight": 131,
+      "previousHeight": 70,
+      "displayHeight": 128
+    },
+    {
+      "frame": "attacks/7",
+      "sourceHeight": 132,
+      "previousHeight": 70,
+      "displayHeight": 128
+    },
+    {
+      "frame": "attacks/8",
+      "sourceHeight": 139,
+      "previousHeight": 62,
+      "displayHeight": 113.37142857142857
+    },
+    {
+      "frame": "attacks/9",
+      "sourceHeight": 139,
+      "previousHeight": 62,
+      "displayHeight": 113.37142857142857
+    },
+    {
+      "frame": "attacks/10",
+      "sourceHeight": 139,
+      "previousHeight": 62,
+      "displayHeight": 113.37142857142857
+    },
+    {
+      "frame": "attacks/11",
+      "sourceHeight": 139,
+      "previousHeight": 63,
+      "displayHeight": 115.2
+    },
+    {
+      "frame": "attacks/12",
+      "sourceHeight": 138,
+      "previousHeight": 63,
+      "displayHeight": 115.2
+    },
+    {
+      "frame": "attacks/13",
+      "sourceHeight": 139,
+      "previousHeight": 61,
+      "displayHeight": 111.54285714285714
+    },
+    {
+      "frame": "attacks/14",
+      "sourceHeight": 138,
+      "previousHeight": 62,
+      "displayHeight": 113.37142857142857
+    },
+    {
+      "frame": "attacks/15",
+      "sourceHeight": 139,
+      "previousHeight": 62,
+      "displayHeight": 113.37142857142857
+    },
+    {
+      "frame": "attacks/16",
+      "sourceHeight": 135,
+      "previousHeight": 65,
+      "displayHeight": 118.85714285714285
+    },
+    {
+      "frame": "attacks/17",
+      "sourceHeight": 135,
+      "previousHeight": 65,
+      "displayHeight": 118.85714285714285
+    },
+    {
+      "frame": "attacks/18",
+      "sourceHeight": 134,
+      "previousHeight": 66,
+      "displayHeight": 120.68571428571428
+    },
+    {
+      "frame": "attacks/19",
+      "sourceHeight": 135,
+      "previousHeight": 66,
+      "displayHeight": 120.68571428571428
+    },
+    {
+      "frame": "attacks/20",
+      "sourceHeight": 134,
+      "previousHeight": 66,
+      "displayHeight": 120.68571428571428
+    },
+    {
+      "frame": "attacks/21",
+      "sourceHeight": 132,
+      "previousHeight": 63,
+      "displayHeight": 115.2
+    },
+    {
+      "frame": "attacks/22",
+      "sourceHeight": 132,
+      "previousHeight": 65,
+      "displayHeight": 118.85714285714285
+    },
+    {
+      "frame": "attacks/23",
+      "sourceHeight": 133,
+      "previousHeight": 65,
+      "displayHeight": 118.85714285714285
+    },
+    {
+      "frame": "attacks/24",
+      "sourceHeight": 139,
+      "previousHeight": 65,
+      "displayHeight": 118.85714285714285
+    },
+    {
+      "frame": "attacks/25",
+      "sourceHeight": 136,
+      "previousHeight": 65,
+      "displayHeight": 118.85714285714285
+    },
+    {
+      "frame": "attacks/26",
+      "sourceHeight": 136,
+      "previousHeight": 64,
+      "displayHeight": 117.02857142857142
+    },
+    {
+      "frame": "attacks/27",
+      "sourceHeight": 136,
+      "previousHeight": 65,
+      "displayHeight": 118.85714285714285
+    },
+    {
+      "frame": "attacks/28",
+      "sourceHeight": 136,
+      "previousHeight": 65,
+      "displayHeight": 118.85714285714285
+    },
+    {
+      "frame": "attacks/29",
+      "sourceHeight": 136,
+      "previousHeight": 65,
+      "displayHeight": 118.85714285714285
+    },
+    {
+      "frame": "attacks/30",
+      "sourceHeight": 134,
+      "previousHeight": 65,
+      "displayHeight": 118.85714285714285
+    },
+    {
+      "frame": "attacks/31",
+      "sourceHeight": 138,
+      "previousHeight": 65,
+      "displayHeight": 118.85714285714285
+    },
+    {
+      "frame": "attacks/32",
+      "sourceHeight": 137,
+      "previousHeight": 68,
+      "displayHeight": 124.34285714285714
+    },
+    {
+      "frame": "attacks/33",
+      "sourceHeight": 139,
+      "previousHeight": 68,
+      "displayHeight": 124.34285714285714
+    },
+    {
+      "frame": "attacks/34",
+      "sourceHeight": 137,
+      "previousHeight": 68,
+      "displayHeight": 124.34285714285714
+    },
+    {
+      "frame": "attacks/35",
+      "sourceHeight": 139,
+      "previousHeight": 68,
+      "displayHeight": 124.34285714285714
+    },
+    {
+      "frame": "attacks/36",
+      "sourceHeight": 140,
+      "previousHeight": 68,
+      "displayHeight": 124.34285714285714
+    },
+    {
+      "frame": "attacks/37",
+      "sourceHeight": 139,
+      "previousHeight": 68,
+      "displayHeight": 124.34285714285714
+    },
+    {
+      "frame": "attacks/38",
+      "sourceHeight": 138,
+      "previousHeight": 68,
+      "displayHeight": 124.34285714285714
+    },
+    {
+      "frame": "attacks/39",
+      "sourceHeight": 137,
+      "previousHeight": 68,
+      "displayHeight": 124.34285714285714
+    },
+    {
+      "frame": "attacks/40",
+      "sourceHeight": 200,
+      "previousHeight": 67,
+      "displayHeight": 122.5142857142857
+    },
+    {
+      "frame": "attacks/41",
+      "sourceHeight": 206,
+      "previousHeight": 67,
+      "displayHeight": 122.5142857142857
+    },
+    {
+      "frame": "attacks/42",
+      "sourceHeight": 210,
+      "previousHeight": 67,
+      "displayHeight": 122.5142857142857
+    },
+    {
+      "frame": "attacks/43",
+      "sourceHeight": 209,
+      "previousHeight": 67,
+      "displayHeight": 122.5142857142857
+    },
+    {
+      "frame": "attacks/44",
+      "sourceHeight": 211,
+      "previousHeight": 67,
+      "displayHeight": 122.5142857142857
+    },
+    {
+      "frame": "attacks/45",
+      "sourceHeight": 207,
+      "previousHeight": 67,
+      "displayHeight": 122.5142857142857
+    },
+    {
+      "frame": "attacks/46",
+      "sourceHeight": 201,
+      "previousHeight": 67,
+      "displayHeight": 122.5142857142857
+    },
+    {
+      "frame": "attacks/47",
+      "sourceHeight": 194,
+      "previousHeight": 67,
+      "displayHeight": 122.5142857142857
+    },
+    {
+      "frame": "attacks/48",
+      "sourceHeight": 108,
+      "previousHeight": 49,
+      "displayHeight": 89.6
+    },
+    {
+      "frame": "attacks/49",
+      "sourceHeight": 109,
+      "previousHeight": 49,
+      "displayHeight": 89.6
+    },
+    {
+      "frame": "attacks/50",
+      "sourceHeight": 106,
+      "previousHeight": 50,
+      "displayHeight": 91.42857142857143
+    },
+    {
+      "frame": "attacks/51",
+      "sourceHeight": 105,
+      "previousHeight": 47,
+      "displayHeight": 85.94285714285714
+    },
+    {
+      "frame": "attacks/52",
+      "sourceHeight": 108,
+      "previousHeight": 47,
+      "displayHeight": 85.94285714285714
+    },
+    {
+      "frame": "attacks/53",
+      "sourceHeight": 109,
+      "previousHeight": 49,
+      "displayHeight": 89.6
+    },
+    {
+      "frame": "attacks/54",
+      "sourceHeight": 107,
+      "previousHeight": 49,
+      "displayHeight": 89.6
+    },
+    {
+      "frame": "attacks/55",
+      "sourceHeight": 108,
+      "previousHeight": 49,
+      "displayHeight": 89.6
+    },
+    {
+      "frame": "attacks/56",
+      "sourceHeight": 108,
+      "previousHeight": 48,
+      "displayHeight": 87.77142857142857
+    },
+    {
+      "frame": "attacks/57",
+      "sourceHeight": 109,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/58",
+      "sourceHeight": 108,
+      "previousHeight": 52,
+      "displayHeight": 95.08571428571429
+    },
+    {
+      "frame": "attacks/59",
+      "sourceHeight": 109,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/60",
+      "sourceHeight": 109,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/61",
+      "sourceHeight": 109,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/62",
+      "sourceHeight": 106,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/63",
+      "sourceHeight": 107,
+      "previousHeight": 50,
+      "displayHeight": 91.42857142857143
+    },
+    {
+      "frame": "attacks/64",
+      "sourceHeight": 107,
+      "previousHeight": 48,
+      "displayHeight": 87.77142857142857
+    },
+    {
+      "frame": "attacks/65",
+      "sourceHeight": 110,
+      "previousHeight": 50,
+      "displayHeight": 91.42857142857143
+    },
+    {
+      "frame": "attacks/66",
+      "sourceHeight": 108,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/67",
+      "sourceHeight": 110,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/68",
+      "sourceHeight": 108,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/69",
+      "sourceHeight": 105,
+      "previousHeight": 50,
+      "displayHeight": 91.42857142857143
+    },
+    {
+      "frame": "attacks/70",
+      "sourceHeight": 104,
+      "previousHeight": 49,
+      "displayHeight": 89.6
+    },
+    {
+      "frame": "attacks/71",
+      "sourceHeight": 103,
+      "previousHeight": 49,
+      "displayHeight": 89.6
+    },
+    {
+      "frame": "attacks/72",
+      "sourceHeight": 151,
+      "previousHeight": 45,
+      "displayHeight": 82.28571428571428
+    },
+    {
+      "frame": "attacks/73",
+      "sourceHeight": 143,
+      "previousHeight": 45,
+      "displayHeight": 82.28571428571428
+    },
+    {
+      "frame": "attacks/74",
+      "sourceHeight": 146,
+      "previousHeight": 44,
+      "displayHeight": 80.45714285714286
+    },
+    {
+      "frame": "attacks/75",
+      "sourceHeight": 140,
+      "previousHeight": 42,
+      "displayHeight": 76.8
+    },
+    {
+      "frame": "attacks/76",
+      "sourceHeight": 137,
+      "previousHeight": 42,
+      "displayHeight": 76.8
+    },
+    {
+      "frame": "attacks/77",
+      "sourceHeight": 138,
+      "previousHeight": 44,
+      "displayHeight": 80.45714285714286
+    },
+    {
+      "frame": "attacks/78",
+      "sourceHeight": 142,
+      "previousHeight": 44,
+      "displayHeight": 80.45714285714286
+    },
+    {
+      "frame": "attacks/79",
+      "sourceHeight": 145,
+      "previousHeight": 44,
+      "displayHeight": 80.45714285714286
+    },
+    {
+      "frame": "attacks/80",
+      "sourceHeight": 150,
+      "previousHeight": 49,
+      "displayHeight": 89.6
+    },
+    {
+      "frame": "attacks/81",
+      "sourceHeight": 143,
+      "previousHeight": 50,
+      "displayHeight": 91.42857142857143
+    },
+    {
+      "frame": "attacks/82",
+      "sourceHeight": 154,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/83",
+      "sourceHeight": 148,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/84",
+      "sourceHeight": 143,
+      "previousHeight": 52,
+      "displayHeight": 95.08571428571429
+    },
+    {
+      "frame": "attacks/85",
+      "sourceHeight": 147,
+      "previousHeight": 52,
+      "displayHeight": 95.08571428571429
+    },
+    {
+      "frame": "attacks/86",
+      "sourceHeight": 148,
+      "previousHeight": 50,
+      "displayHeight": 91.42857142857143
+    },
+    {
+      "frame": "attacks/87",
+      "sourceHeight": 146,
+      "previousHeight": 49,
+      "displayHeight": 89.6
+    },
+    {
+      "frame": "attacks/88",
+      "sourceHeight": 105,
+      "previousHeight": 46,
+      "displayHeight": 84.11428571428571
+    },
+    {
+      "frame": "attacks/89",
+      "sourceHeight": 92,
+      "previousHeight": 43,
+      "displayHeight": 78.62857142857142
+    },
+    {
+      "frame": "attacks/90",
+      "sourceHeight": 92,
+      "previousHeight": 46,
+      "displayHeight": 84.11428571428571
+    },
+    {
+      "frame": "attacks/91",
+      "sourceHeight": 88,
+      "previousHeight": 43,
+      "displayHeight": 78.62857142857142
+    },
+    {
+      "frame": "attacks/92",
+      "sourceHeight": 89,
+      "previousHeight": 42,
+      "displayHeight": 76.8
+    },
+    {
+      "frame": "attacks/93",
+      "sourceHeight": 88,
+      "previousHeight": 46,
+      "displayHeight": 84.11428571428571
+    },
+    {
+      "frame": "attacks/94",
+      "sourceHeight": 88,
+      "previousHeight": 47,
+      "displayHeight": 85.94285714285714
+    },
+    {
+      "frame": "attacks/95",
+      "sourceHeight": 96,
+      "previousHeight": 47,
+      "displayHeight": 85.94285714285714
+    },
+    {
+      "frame": "attacks/96",
+      "sourceHeight": 117,
+      "previousHeight": 52,
+      "displayHeight": 95.08571428571429
+    },
+    {
+      "frame": "attacks/97",
+      "sourceHeight": 113,
+      "previousHeight": 53,
+      "displayHeight": 96.91428571428571
+    },
+    {
+      "frame": "attacks/98",
+      "sourceHeight": 118,
+      "previousHeight": 53,
+      "displayHeight": 96.91428571428571
+    },
+    {
+      "frame": "attacks/99",
+      "sourceHeight": 117,
+      "previousHeight": 53,
+      "displayHeight": 96.91428571428571
+    },
+    {
+      "frame": "attacks/100",
+      "sourceHeight": 115,
+      "previousHeight": 53,
+      "displayHeight": 96.91428571428571
+    },
+    {
+      "frame": "attacks/101",
+      "sourceHeight": 108,
+      "previousHeight": 53,
+      "displayHeight": 96.91428571428571
+    },
+    {
+      "frame": "attacks/102",
+      "sourceHeight": 110,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/103",
+      "sourceHeight": 118,
+      "previousHeight": 53,
+      "displayHeight": 96.91428571428571
+    },
+    {
+      "frame": "attacks/104",
+      "sourceHeight": 117,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/105",
+      "sourceHeight": 118,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/106",
+      "sourceHeight": 120,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/107",
+      "sourceHeight": 121,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/108",
+      "sourceHeight": 117,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/109",
+      "sourceHeight": 108,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/110",
+      "sourceHeight": 108,
+      "previousHeight": 50,
+      "displayHeight": 91.42857142857143
+    },
+    {
+      "frame": "attacks/111",
+      "sourceHeight": 116,
+      "previousHeight": 50,
+      "displayHeight": 91.42857142857143
+    },
+    {
+      "frame": "attacks/112",
+      "sourceHeight": 122,
+      "previousHeight": 50,
+      "displayHeight": 91.42857142857143
+    },
+    {
+      "frame": "attacks/113",
+      "sourceHeight": 123,
+      "previousHeight": 52,
+      "displayHeight": 95.08571428571429
+    },
+    {
+      "frame": "attacks/114",
+      "sourceHeight": 123,
+      "previousHeight": 55,
+      "displayHeight": 100.57142857142857
+    },
+    {
+      "frame": "attacks/115",
+      "sourceHeight": 106,
+      "previousHeight": 55,
+      "displayHeight": 100.57142857142857
+    },
+    {
+      "frame": "attacks/116",
+      "sourceHeight": 115,
+      "previousHeight": 55,
+      "displayHeight": 100.57142857142857
+    },
+    {
+      "frame": "attacks/117",
+      "sourceHeight": 105,
+      "previousHeight": 54,
+      "displayHeight": 98.74285714285713
+    },
+    {
+      "frame": "attacks/118",
+      "sourceHeight": 115,
+      "previousHeight": 50,
+      "displayHeight": 91.42857142857143
+    },
+    {
+      "frame": "attacks/119",
+      "sourceHeight": 117,
+      "previousHeight": 52,
+      "displayHeight": 95.08571428571429
+    },
+    {
+      "frame": "attacks/120",
+      "sourceHeight": 187,
+      "previousHeight": 52,
+      "displayHeight": 95.08571428571429
+    },
+    {
+      "frame": "attacks/121",
+      "sourceHeight": 174,
+      "previousHeight": 52,
+      "displayHeight": 95.08571428571429
+    },
+    {
+      "frame": "attacks/122",
+      "sourceHeight": 147,
+      "previousHeight": 49,
+      "displayHeight": 89.6
+    },
+    {
+      "frame": "attacks/123",
+      "sourceHeight": 158,
+      "previousHeight": 49,
+      "displayHeight": 89.6
+    },
+    {
+      "frame": "attacks/124",
+      "sourceHeight": 157,
+      "previousHeight": 48,
+      "displayHeight": 87.77142857142857
+    },
+    {
+      "frame": "attacks/125",
+      "sourceHeight": 154,
+      "previousHeight": 47,
+      "displayHeight": 85.94285714285714
+    },
+    {
+      "frame": "attacks/126",
+      "sourceHeight": 189,
+      "previousHeight": 52,
+      "displayHeight": 95.08571428571429
+    },
+    {
+      "frame": "attacks/127",
+      "sourceHeight": 187,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/128",
+      "sourceHeight": 117,
+      "previousHeight": 54,
+      "displayHeight": 98.74285714285713
+    },
+    {
+      "frame": "attacks/129",
+      "sourceHeight": 114,
+      "previousHeight": 52,
+      "displayHeight": 95.08571428571429
+    },
+    {
+      "frame": "attacks/130",
+      "sourceHeight": 119,
+      "previousHeight": 52,
+      "displayHeight": 95.08571428571429
+    },
+    {
+      "frame": "attacks/131",
+      "sourceHeight": 120,
+      "previousHeight": 52,
+      "displayHeight": 95.08571428571429
+    },
+    {
+      "frame": "attacks/132",
+      "sourceHeight": 114,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/133",
+      "sourceHeight": 107,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/134",
+      "sourceHeight": 109,
+      "previousHeight": 54,
+      "displayHeight": 98.74285714285713
+    },
+    {
+      "frame": "attacks/135",
+      "sourceHeight": 116,
+      "previousHeight": 53,
+      "displayHeight": 96.91428571428571
+    },
+    {
+      "frame": "attacks/136",
+      "sourceHeight": 187,
+      "previousHeight": 48,
+      "displayHeight": 87.77142857142857
+    },
+    {
+      "frame": "attacks/137",
+      "sourceHeight": 174,
+      "previousHeight": 52,
+      "displayHeight": 95.08571428571429
+    },
+    {
+      "frame": "attacks/138",
+      "sourceHeight": 147,
+      "previousHeight": 52,
+      "displayHeight": 95.08571428571429
+    },
+    {
+      "frame": "attacks/139",
+      "sourceHeight": 158,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/140",
+      "sourceHeight": 157,
+      "previousHeight": 52,
+      "displayHeight": 95.08571428571429
+    },
+    {
+      "frame": "attacks/141",
+      "sourceHeight": 154,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/142",
+      "sourceHeight": 189,
+      "previousHeight": 52,
+      "displayHeight": 95.08571428571429
+    },
+    {
+      "frame": "attacks/143",
+      "sourceHeight": 187,
+      "previousHeight": 51,
+      "displayHeight": 93.25714285714285
+    },
+    {
+      "frame": "attacks/144",
+      "sourceHeight": 117,
+      "previousHeight": 57,
+      "displayHeight": 104.22857142857143
+    },
+    {
+      "frame": "attacks/145",
+      "sourceHeight": 119,
+      "previousHeight": 57,
+      "displayHeight": 104.22857142857143
+    },
+    {
+      "frame": "attacks/146",
+      "sourceHeight": 115,
+      "previousHeight": 57,
+      "displayHeight": 104.22857142857143
+    },
+    {
+      "frame": "attacks/147",
+      "sourceHeight": 116,
+      "previousHeight": 56,
+      "displayHeight": 102.39999999999999
+    },
+    {
+      "frame": "attacks/148",
+      "sourceHeight": 115,
+      "previousHeight": 56,
+      "displayHeight": 102.39999999999999
+    },
+    {
+      "frame": "attacks/149",
+      "sourceHeight": 108,
+      "previousHeight": 55,
+      "displayHeight": 100.57142857142857
+    },
+    {
+      "frame": "attacks/150",
+      "sourceHeight": 105,
+      "previousHeight": 57,
+      "displayHeight": 104.22857142857143
+    },
+    {
+      "frame": "attacks/151",
+      "sourceHeight": 114,
+      "previousHeight": 58,
+      "displayHeight": 106.05714285714285
+    },
+    {
+      "frame": "attacks/152",
+      "sourceHeight": 132,
+      "previousHeight": 58,
+      "displayHeight": 106.05714285714285
+    },
+    {
+      "frame": "attacks/153",
+      "sourceHeight": 115,
+      "previousHeight": 58,
+      "displayHeight": 106.05714285714285
+    },
+    {
+      "frame": "attacks/154",
+      "sourceHeight": 126,
+      "previousHeight": 61,
+      "displayHeight": 111.54285714285714
+    },
+    {
+      "frame": "attacks/155",
+      "sourceHeight": 156,
+      "previousHeight": 68,
+      "displayHeight": 124.34285714285714
+    },
+    {
+      "frame": "attacks/156",
+      "sourceHeight": 156,
+      "previousHeight": 68,
+      "displayHeight": 124.34285714285714
+    },
+    {
+      "frame": "attacks/157",
+      "sourceHeight": 142,
+      "previousHeight": 66,
+      "displayHeight": 120.68571428571428
+    },
+    {
+      "frame": "attacks/158",
+      "sourceHeight": 121,
+      "previousHeight": 64,
+      "displayHeight": 117.02857142857142
+    },
+    {
+      "frame": "attacks/159",
+      "sourceHeight": 127,
+      "previousHeight": 64,
+      "displayHeight": 117.02857142857142
+    },
+    {
+      "frame": "attacks/160",
+      "sourceHeight": 129,
+      "previousHeight": 62,
+      "displayHeight": 113.37142857142857
+    },
+    {
+      "frame": "attacks/161",
+      "sourceHeight": 126,
+      "previousHeight": 63,
+      "displayHeight": 115.2
+    },
+    {
+      "frame": "attacks/162",
+      "sourceHeight": 131,
+      "previousHeight": 61,
+      "displayHeight": 111.54285714285714
+    },
+    {
+      "frame": "attacks/163",
+      "sourceHeight": 134,
+      "previousHeight": 61,
+      "displayHeight": 111.54285714285714
+    },
+    {
+      "frame": "attacks/164",
+      "sourceHeight": 129,
+      "previousHeight": 61,
+      "displayHeight": 111.54285714285714
+    },
+    {
+      "frame": "attacks/165",
+      "sourceHeight": 130,
+      "previousHeight": 63,
+      "displayHeight": 115.2
+    },
+    {
+      "frame": "attacks/166",
+      "sourceHeight": 129,
+      "previousHeight": 61,
+      "displayHeight": 111.54285714285714
+    },
+    {
+      "frame": "attacks/167",
+      "sourceHeight": 130,
+      "previousHeight": 62,
+      "displayHeight": 113.37142857142857
+    },
+    {
+      "frame": "attacks/168",
+      "sourceHeight": 104,
+      "previousHeight": 54,
+      "displayHeight": 98.74285714285713
+    },
+    {
+      "frame": "attacks/169",
+      "sourceHeight": 91,
+      "previousHeight": 54,
+      "displayHeight": 98.74285714285713
+    },
+    {
+      "frame": "attacks/170",
+      "sourceHeight": 92,
+      "previousHeight": 55,
+      "displayHeight": 100.57142857142857
+    },
+    {
+      "frame": "attacks/171",
+      "sourceHeight": 96,
+      "previousHeight": 54,
+      "displayHeight": 98.74285714285713
+    },
+    {
+      "frame": "attacks/172",
+      "sourceHeight": 96,
+      "previousHeight": 55,
+      "displayHeight": 100.57142857142857
+    },
+    {
+      "frame": "attacks/173",
+      "sourceHeight": 91,
+      "previousHeight": 55,
+      "displayHeight": 100.57142857142857
+    },
+    {
+      "frame": "attacks/174",
+      "sourceHeight": 93,
+      "previousHeight": 54,
+      "displayHeight": 98.74285714285713
+    },
+    {
+      "frame": "attacks/175",
+      "sourceHeight": 97,
+      "previousHeight": 54,
+      "displayHeight": 98.74285714285713
+    },
+    {
+      "frame": "motion/0",
+      "sourceHeight": 190,
+      "previousHeight": 103,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/1",
+      "sourceHeight": 190,
+      "previousHeight": 103,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/2",
+      "sourceHeight": 191,
+      "previousHeight": 105,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/3",
+      "sourceHeight": 192,
+      "previousHeight": 105,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/4",
+      "sourceHeight": 188,
+      "previousHeight": 105,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/5",
+      "sourceHeight": 186,
+      "previousHeight": 103,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/6",
+      "sourceHeight": 185,
+      "previousHeight": 103,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/7",
+      "sourceHeight": 187,
+      "previousHeight": 103,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/8",
+      "sourceHeight": 183,
+      "previousHeight": 93,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/9",
+      "sourceHeight": 180,
+      "previousHeight": 94,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/10",
+      "sourceHeight": 181,
+      "previousHeight": 94,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/11",
+      "sourceHeight": 181,
+      "previousHeight": 94,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/12",
+      "sourceHeight": 181,
+      "previousHeight": 94,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/13",
+      "sourceHeight": 180,
+      "previousHeight": 94,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/14",
+      "sourceHeight": 181,
+      "previousHeight": 93,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/15",
+      "sourceHeight": 181,
+      "previousHeight": 94,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/16",
+      "sourceHeight": 182,
+      "previousHeight": 95,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/17",
+      "sourceHeight": 181,
+      "previousHeight": 95,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/18",
+      "sourceHeight": 179,
+      "previousHeight": 95,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/19",
+      "sourceHeight": 178,
+      "previousHeight": 94,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/20",
+      "sourceHeight": 179,
+      "previousHeight": 94,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/21",
+      "sourceHeight": 179,
+      "previousHeight": 94,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/22",
+      "sourceHeight": 179,
+      "previousHeight": 95,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/23",
+      "sourceHeight": 177,
+      "previousHeight": 95,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/24",
+      "sourceHeight": 176,
+      "previousHeight": 97,
+      "displayHeight": 120.54368932038834
+    },
+    {
+      "frame": "motion/25",
+      "sourceHeight": 173,
+      "previousHeight": 89,
+      "displayHeight": 110.60194174757281
+    },
+    {
+      "frame": "motion/26",
+      "sourceHeight": 170,
+      "previousHeight": 85,
+      "displayHeight": 105.63106796116504
+    },
+    {
+      "frame": "motion/27",
+      "sourceHeight": 161,
+      "previousHeight": 81,
+      "displayHeight": 100.66019417475728
+    },
+    {
+      "frame": "motion/28",
+      "sourceHeight": 154,
+      "previousHeight": 74,
+      "displayHeight": 91.96116504854368
+    },
+    {
+      "frame": "motion/29",
+      "sourceHeight": 143,
+      "previousHeight": 74,
+      "displayHeight": 91.96116504854368
+    },
+    {
+      "frame": "motion/30",
+      "sourceHeight": 136,
+      "previousHeight": 70,
+      "displayHeight": 86.99029126213591
+    },
+    {
+      "frame": "motion/31",
+      "sourceHeight": 134,
+      "previousHeight": 70,
+      "displayHeight": 86.99029126213591
+    },
+    {
+      "frame": "motion/32",
+      "sourceHeight": 134,
+      "previousHeight": 70,
+      "displayHeight": 86.99029126213591
+    },
+    {
+      "frame": "motion/33",
+      "sourceHeight": 134,
+      "previousHeight": 70,
+      "displayHeight": 86.99029126213591
+    },
+    {
+      "frame": "motion/34",
+      "sourceHeight": 134,
+      "previousHeight": 68,
+      "displayHeight": 84.50485436893203
+    },
+    {
+      "frame": "motion/35",
+      "sourceHeight": 134,
+      "previousHeight": 67,
+      "displayHeight": 83.26213592233009
+    },
+    {
+      "frame": "motion/36",
+      "sourceHeight": 134,
+      "previousHeight": 67,
+      "displayHeight": 83.26213592233009
+    },
+    {
+      "frame": "motion/37",
+      "sourceHeight": 134,
+      "previousHeight": 66,
+      "displayHeight": 82.01941747572815
+    },
+    {
+      "frame": "motion/38",
+      "sourceHeight": 134,
+      "previousHeight": 66,
+      "displayHeight": 82.01941747572815
+    },
+    {
+      "frame": "motion/39",
+      "sourceHeight": 134,
+      "previousHeight": 66,
+      "displayHeight": 82.01941747572815
+    },
+    {
+      "frame": "motion/40",
+      "sourceHeight": 149,
+      "previousHeight": 66,
+      "displayHeight": 82.01941747572815
+    },
+    {
+      "frame": "motion/41",
+      "sourceHeight": 150,
+      "previousHeight": 76,
+      "displayHeight": 94.44660194174756
+    },
+    {
+      "frame": "motion/42",
+      "sourceHeight": 163,
+      "previousHeight": 88,
+      "displayHeight": 109.35922330097087
+    },
+    {
+      "frame": "motion/43",
+      "sourceHeight": 173,
+      "previousHeight": 92,
+      "displayHeight": 114.33009708737863
+    },
+    {
+      "frame": "motion/44",
+      "sourceHeight": 177,
+      "previousHeight": 86,
+      "displayHeight": 106.87378640776699
+    },
+    {
+      "frame": "motion/45",
+      "sourceHeight": 184,
+      "previousHeight": 87,
+      "displayHeight": 108.11650485436893
+    },
+    {
+      "frame": "motion/46",
+      "sourceHeight": 185,
+      "previousHeight": 92,
+      "displayHeight": 114.33009708737863
+    },
+    {
+      "frame": "motion/47",
+      "sourceHeight": 185,
+      "previousHeight": 93,
+      "displayHeight": 115.57281553398057
+    },
+    {
+      "frame": "motion/48",
+      "sourceHeight": 137,
+      "previousHeight": 73,
+      "displayHeight": 90.71844660194174
+    },
+    {
+      "frame": "motion/49",
+      "sourceHeight": 162,
+      "previousHeight": 95,
+      "displayHeight": 118.05825242718446
+    },
+    {
+      "frame": "motion/50",
+      "sourceHeight": 169,
+      "previousHeight": 94,
+      "displayHeight": 116.81553398058252
+    },
+    {
+      "frame": "motion/51",
+      "sourceHeight": 149,
+      "previousHeight": 73,
+      "displayHeight": 90.71844660194174
+    },
+    {
+      "frame": "motion/52",
+      "sourceHeight": 157,
+      "previousHeight": 88,
+      "displayHeight": 109.35922330097087
+    },
+    {
+      "frame": "motion/53",
+      "sourceHeight": 164,
+      "previousHeight": 79,
+      "displayHeight": 98.17475728155338
+    },
+    {
+      "frame": "motion/54",
+      "sourceHeight": 142,
+      "previousHeight": 76,
+      "displayHeight": 94.44660194174756
+    },
+    {
+      "frame": "motion/55",
+      "sourceHeight": 128,
+      "previousHeight": 86,
+      "displayHeight": 106.87378640776699
+    },
+    {
+      "frame": "motion/56",
+      "sourceHeight": 156,
+      "previousHeight": 87,
+      "displayHeight": 108.11650485436893
+    },
+    {
+      "frame": "motion/57",
+      "sourceHeight": 153,
+      "previousHeight": 84,
+      "displayHeight": 104.3883495145631
+    },
+    {
+      "frame": "motion/58",
+      "sourceHeight": 150,
+      "previousHeight": 92,
+      "displayHeight": 114.33009708737863
+    },
+    {
+      "frame": "motion/59",
+      "sourceHeight": 146,
+      "previousHeight": 92,
+      "displayHeight": 114.33009708737863
+    },
+    {
+      "frame": "motion/60",
+      "sourceHeight": 147,
+      "previousHeight": 83,
+      "displayHeight": 103.14563106796116
+    },
+    {
+      "frame": "motion/61",
+      "sourceHeight": 143,
+      "previousHeight": 82,
+      "displayHeight": 101.90291262135922
+    },
+    {
+      "frame": "motion/62",
+      "sourceHeight": 154,
+      "previousHeight": 89,
+      "displayHeight": 110.60194174757281
+    },
+    {
+      "frame": "motion/63",
+      "sourceHeight": 153,
+      "previousHeight": 89,
+      "displayHeight": 110.60194174757281
+    },
+    {
+      "frame": "motion/64",
+      "sourceHeight": 162,
+      "previousHeight": 93,
+      "displayHeight": 115.57281553398057
+    },
+    {
+      "frame": "motion/65",
+      "sourceHeight": 160,
+      "previousHeight": 94,
+      "displayHeight": 116.81553398058252
+    },
+    {
+      "frame": "motion/66",
+      "sourceHeight": 158,
+      "previousHeight": 79,
+      "displayHeight": 98.17475728155338
+    },
+    {
+      "frame": "motion/67",
+      "sourceHeight": 143,
+      "previousHeight": 73,
+      "displayHeight": 90.71844660194174
+    },
+    {
+      "frame": "motion/68",
+      "sourceHeight": 148,
+      "previousHeight": 101,
+      "displayHeight": 125.5145631067961
+    },
+    {
+      "frame": "motion/69",
+      "sourceHeight": 149,
+      "previousHeight": 85,
+      "displayHeight": 105.63106796116504
+    },
+    {
+      "frame": "motion/70",
+      "sourceHeight": 151,
+      "previousHeight": 87,
+      "displayHeight": 108.11650485436893
+    },
+    {
+      "frame": "motion/71",
+      "sourceHeight": 152,
+      "previousHeight": 87,
+      "displayHeight": 108.11650485436893
+    },
+    {
+      "frame": "motion/72",
+      "sourceHeight": 163,
+      "previousHeight": 89,
+      "displayHeight": 110.60194174757281
+    },
+    {
+      "frame": "motion/73",
+      "sourceHeight": 158,
+      "previousHeight": 91,
+      "displayHeight": 113.08737864077669
+    },
+    {
+      "frame": "motion/74",
+      "sourceHeight": 161,
+      "previousHeight": 93,
+      "displayHeight": 115.57281553398057
+    },
+    {
+      "frame": "motion/75",
+      "sourceHeight": 185,
+      "previousHeight": 104,
+      "displayHeight": 129.24271844660194
+    },
+    {
+      "frame": "motion/76",
+      "sourceHeight": 185,
+      "previousHeight": 104,
+      "displayHeight": 129.24271844660194
+    },
+    {
+      "frame": "motion/77",
+      "sourceHeight": 161,
+      "previousHeight": 89,
+      "displayHeight": 110.60194174757281
+    },
+    {
+      "frame": "motion/78",
+      "sourceHeight": 153,
+      "previousHeight": 89,
+      "displayHeight": 110.60194174757281
+    },
+    {
+      "frame": "motion/79",
+      "sourceHeight": 158,
+      "previousHeight": 90,
+      "displayHeight": 111.84466019417475
+    },
+    {
+      "frame": "motion/80",
+      "sourceHeight": 118,
+      "previousHeight": 78,
+      "displayHeight": 96.93203883495144
+    },
+    {
+      "frame": "motion/81",
+      "sourceHeight": 110,
+      "previousHeight": 70,
+      "displayHeight": 86.99029126213591
+    },
+    {
+      "frame": "motion/82",
+      "sourceHeight": 77,
+      "previousHeight": 62,
+      "displayHeight": 77.04854368932038
+    },
+    {
+      "frame": "motion/83",
+      "sourceHeight": 72,
+      "previousHeight": 50,
+      "displayHeight": 62.13592233009708
+    },
+    {
+      "frame": "motion/84",
+      "sourceHeight": 60,
+      "previousHeight": 35,
+      "displayHeight": 43.495145631067956
+    },
+    {
+      "frame": "motion/85",
+      "sourceHeight": 49,
+      "previousHeight": 28,
+      "displayHeight": 34.79611650485437
+    },
+    {
+      "frame": "motion/86",
+      "sourceHeight": 40,
+      "previousHeight": 21,
+      "displayHeight": 26.097087378640776
+    },
+    {
+      "frame": "motion/87",
+      "sourceHeight": 38,
+      "previousHeight": 20,
+      "displayHeight": 24.85436893203883
+    },
+    {
+      "frame": "motion/88",
+      "sourceHeight": 38,
+      "previousHeight": 21,
+      "displayHeight": 26.097087378640776
+    },
+    {
+      "frame": "motion/89",
+      "sourceHeight": 57,
+      "previousHeight": 31,
+      "displayHeight": 38.52427184466019
+    },
+    {
+      "frame": "motion/90",
+      "sourceHeight": 86,
+      "previousHeight": 45,
+      "displayHeight": 55.922330097087375
+    },
+    {
+      "frame": "motion/91",
+      "sourceHeight": 97,
+      "previousHeight": 55,
+      "displayHeight": 68.3495145631068
+    },
+    {
+      "frame": "motion/92",
+      "sourceHeight": 118,
+      "previousHeight": 63,
+      "displayHeight": 78.29126213592232
+    },
+    {
+      "frame": "motion/93",
+      "sourceHeight": 127,
+      "previousHeight": 65,
+      "displayHeight": 80.7766990291262
+    },
+    {
+      "frame": "motion/94",
+      "sourceHeight": 139,
+      "previousHeight": 71,
+      "displayHeight": 88.23300970873785
+    },
+    {
+      "frame": "motion/95",
+      "sourceHeight": 150,
+      "previousHeight": 75,
+      "displayHeight": 93.20388349514562
+    },
+    {
+      "frame": "reactions/0",
+      "sourceHeight": 160,
+      "previousHeight": 98,
+      "displayHeight": 127.99999999999999
+    },
+    {
+      "frame": "reactions/1",
+      "sourceHeight": 159,
+      "previousHeight": 99,
+      "displayHeight": 129.30612244897958
+    },
+    {
+      "frame": "reactions/2",
+      "sourceHeight": 160,
+      "previousHeight": 100,
+      "displayHeight": 130.6122448979592
+    },
+    {
+      "frame": "reactions/3",
+      "sourceHeight": 160,
+      "previousHeight": 97,
+      "displayHeight": 126.69387755102039
+    },
+    {
+      "frame": "reactions/4",
+      "sourceHeight": 152,
+      "previousHeight": 96,
+      "displayHeight": 125.38775510204081
+    },
+    {
+      "frame": "reactions/5",
+      "sourceHeight": 150,
+      "previousHeight": 95,
+      "displayHeight": 124.08163265306122
+    },
+    {
+      "frame": "reactions/6",
+      "sourceHeight": 150,
+      "previousHeight": 95,
+      "displayHeight": 124.08163265306122
+    },
+    {
+      "frame": "reactions/7",
+      "sourceHeight": 155,
+      "previousHeight": 98,
+      "displayHeight": 127.99999999999999
+    },
+    {
+      "frame": "reactions/8",
+      "sourceHeight": 146,
+      "previousHeight": 90,
+      "displayHeight": 117.55102040816325
+    },
+    {
+      "frame": "reactions/9",
+      "sourceHeight": 130,
+      "previousHeight": 76,
+      "displayHeight": 99.26530612244898
+    },
+    {
+      "frame": "reactions/10",
+      "sourceHeight": 111,
+      "previousHeight": 66,
+      "displayHeight": 86.20408163265306
+    },
+    {
+      "frame": "reactions/11",
+      "sourceHeight": 108,
+      "previousHeight": 64,
+      "displayHeight": 83.59183673469387
+    },
+    {
+      "frame": "reactions/12",
+      "sourceHeight": 104,
+      "previousHeight": 63,
+      "displayHeight": 82.28571428571428
+    },
+    {
+      "frame": "reactions/13",
+      "sourceHeight": 110,
+      "previousHeight": 66,
+      "displayHeight": 86.20408163265306
+    },
+    {
+      "frame": "reactions/14",
+      "sourceHeight": 130,
+      "previousHeight": 80,
+      "displayHeight": 104.48979591836734
+    },
+    {
+      "frame": "reactions/15",
+      "sourceHeight": 145,
+      "previousHeight": 90,
+      "displayHeight": 117.55102040816325
+    },
+    {
+      "frame": "reactions/16",
+      "sourceHeight": 147,
+      "previousHeight": 91,
+      "displayHeight": 118.85714285714285
+    },
+    {
+      "frame": "reactions/17",
+      "sourceHeight": 138,
+      "previousHeight": 85,
+      "displayHeight": 111.0204081632653
+    },
+    {
+      "frame": "reactions/18",
+      "sourceHeight": 135,
+      "previousHeight": 82,
+      "displayHeight": 107.10204081632652
+    },
+    {
+      "frame": "reactions/19",
+      "sourceHeight": 136,
+      "previousHeight": 82,
+      "displayHeight": 107.10204081632652
+    },
+    {
+      "frame": "reactions/20",
+      "sourceHeight": 137,
+      "previousHeight": 85,
+      "displayHeight": 111.0204081632653
+    },
+    {
+      "frame": "reactions/21",
+      "sourceHeight": 135,
+      "previousHeight": 82,
+      "displayHeight": 107.10204081632652
+    },
+    {
+      "frame": "reactions/22",
+      "sourceHeight": 136,
+      "previousHeight": 84,
+      "displayHeight": 109.71428571428571
+    },
+    {
+      "frame": "reactions/23",
+      "sourceHeight": 143,
+      "previousHeight": 91,
+      "displayHeight": 118.85714285714285
+    },
+    {
+      "frame": "reactions/24",
+      "sourceHeight": 148,
+      "previousHeight": 93,
+      "displayHeight": 121.46938775510203
+    },
+    {
+      "frame": "reactions/25",
+      "sourceHeight": 135,
+      "previousHeight": 80,
+      "displayHeight": 104.48979591836734
+    },
+    {
+      "frame": "reactions/26",
+      "sourceHeight": 127,
+      "previousHeight": 79,
+      "displayHeight": 103.18367346938774
+    },
+    {
+      "frame": "reactions/27",
+      "sourceHeight": 115,
+      "previousHeight": 71,
+      "displayHeight": 92.73469387755101
+    },
+    {
+      "frame": "reactions/28",
+      "sourceHeight": 113,
+      "previousHeight": 69,
+      "displayHeight": 90.12244897959182
+    },
+    {
+      "frame": "reactions/29",
+      "sourceHeight": 123,
+      "previousHeight": 78,
+      "displayHeight": 101.87755102040815
+    },
+    {
+      "frame": "reactions/30",
+      "sourceHeight": 128,
+      "previousHeight": 82,
+      "displayHeight": 107.10204081632652
+    },
+    {
+      "frame": "reactions/31",
+      "sourceHeight": 141,
+      "previousHeight": 93,
+      "displayHeight": 121.46938775510203
+    },
+    {
+      "frame": "reactions/32",
+      "sourceHeight": 145,
+      "previousHeight": 95,
+      "displayHeight": 124.08163265306122
+    },
+    {
+      "frame": "reactions/33",
+      "sourceHeight": 136,
+      "previousHeight": 88,
+      "displayHeight": 114.93877551020407
+    },
+    {
+      "frame": "reactions/34",
+      "sourceHeight": 134,
+      "previousHeight": 85,
+      "displayHeight": 111.0204081632653
+    },
+    {
+      "frame": "reactions/35",
+      "sourceHeight": 125,
+      "previousHeight": 84,
+      "displayHeight": 109.71428571428571
+    },
+    {
+      "frame": "reactions/36",
+      "sourceHeight": 131,
+      "previousHeight": 88,
+      "displayHeight": 114.93877551020407
+    },
+    {
+      "frame": "reactions/37",
+      "sourceHeight": 130,
+      "previousHeight": 88,
+      "displayHeight": 114.93877551020407
+    },
+    {
+      "frame": "reactions/38",
+      "sourceHeight": 129,
+      "previousHeight": 86,
+      "displayHeight": 112.3265306122449
+    },
+    {
+      "frame": "reactions/39",
+      "sourceHeight": 138,
+      "previousHeight": 95,
+      "displayHeight": 124.08163265306122
+    },
+    {
+      "frame": "reactions/40",
+      "sourceHeight": 130,
+      "previousHeight": 92,
+      "displayHeight": 120.16326530612244
+    },
+    {
+      "frame": "reactions/41",
+      "sourceHeight": 134,
+      "previousHeight": 90,
+      "displayHeight": 117.55102040816325
+    },
+    {
+      "frame": "reactions/42",
+      "sourceHeight": 128,
+      "previousHeight": 89,
+      "displayHeight": 116.24489795918366
+    },
+    {
+      "frame": "reactions/43",
+      "sourceHeight": 123,
+      "previousHeight": 85,
+      "displayHeight": 111.0204081632653
+    },
+    {
+      "frame": "reactions/44",
+      "sourceHeight": 120,
+      "previousHeight": 85,
+      "displayHeight": 111.0204081632653
+    },
+    {
+      "frame": "reactions/45",
+      "sourceHeight": 117,
+      "previousHeight": 83,
+      "displayHeight": 108.40816326530611
+    },
+    {
+      "frame": "reactions/46",
+      "sourceHeight": 114,
+      "previousHeight": 85,
+      "displayHeight": 111.0204081632653
+    },
+    {
+      "frame": "reactions/47",
+      "sourceHeight": 123,
+      "previousHeight": 90,
+      "displayHeight": 117.55102040816325
+    },
+    {
+      "frame": "reactions/48",
+      "sourceHeight": 116,
+      "previousHeight": 92,
+      "displayHeight": 120.16326530612244
+    },
+    {
+      "frame": "reactions/49",
+      "sourceHeight": 109,
+      "previousHeight": 89,
+      "displayHeight": 116.24489795918366
+    },
+    {
+      "frame": "reactions/50",
+      "sourceHeight": 108,
+      "previousHeight": 82,
+      "displayHeight": 107.10204081632652
+    },
+    {
+      "frame": "reactions/51",
+      "sourceHeight": 101,
+      "previousHeight": 81,
+      "displayHeight": 105.79591836734693
+    },
+    {
+      "frame": "reactions/52",
+      "sourceHeight": 103,
+      "previousHeight": 78,
+      "displayHeight": 101.87755102040815
+    },
+    {
+      "frame": "reactions/53",
+      "sourceHeight": 105,
+      "previousHeight": 80,
+      "displayHeight": 104.48979591836734
+    },
+    {
+      "frame": "reactions/54",
+      "sourceHeight": 101,
+      "previousHeight": 82,
+      "displayHeight": 107.10204081632652
+    },
+    {
+      "frame": "reactions/55",
+      "sourceHeight": 110,
+      "previousHeight": 91,
+      "displayHeight": 118.85714285714285
+    },
+    {
+      "frame": "reactions/56",
+      "sourceHeight": 155,
+      "previousHeight": 90,
+      "displayHeight": 117.55102040816325
+    },
+    {
+      "frame": "reactions/57",
+      "sourceHeight": 158,
+      "previousHeight": 88,
+      "displayHeight": 114.93877551020407
+    },
+    {
+      "frame": "reactions/58",
+      "sourceHeight": 151,
+      "previousHeight": 89,
+      "displayHeight": 116.24489795918366
+    },
+    {
+      "frame": "reactions/59",
+      "sourceHeight": 122,
+      "previousHeight": 69,
+      "displayHeight": 90.12244897959182
+    },
+    {
+      "frame": "reactions/60",
+      "sourceHeight": 118,
+      "previousHeight": 70,
+      "displayHeight": 91.42857142857142
+    },
+    {
+      "frame": "reactions/61",
+      "sourceHeight": 88,
+      "previousHeight": 74,
+      "displayHeight": 96.65306122448979
+    },
+    {
+      "frame": "reactions/62",
+      "sourceHeight": 71,
+      "previousHeight": 70,
+      "displayHeight": 91.42857142857142
+    },
+    {
+      "frame": "reactions/63",
+      "sourceHeight": 37,
+      "previousHeight": 89,
+      "displayHeight": 116.24489795918366
+    },
+    {
+      "frame": "reactions/64",
+      "sourceHeight": 155,
+      "previousHeight": 85,
+      "displayHeight": 111.0204081632653
+    },
+    {
+      "frame": "reactions/65",
+      "sourceHeight": 158,
+      "previousHeight": 84,
+      "displayHeight": 109.71428571428571
+    },
+    {
+      "frame": "reactions/66",
+      "sourceHeight": 151,
+      "previousHeight": 76,
+      "displayHeight": 99.26530612244898
+    },
+    {
+      "frame": "reactions/67",
+      "sourceHeight": 122,
+      "previousHeight": 58,
+      "displayHeight": 75.75510204081633
+    },
+    {
+      "frame": "reactions/68",
+      "sourceHeight": 118,
+      "previousHeight": 51,
+      "displayHeight": 66.61224489795917
+    },
+    {
+      "frame": "reactions/69",
+      "sourceHeight": 88,
+      "previousHeight": 38,
+      "displayHeight": 49.63265306122449
+    },
+    {
+      "frame": "reactions/70",
+      "sourceHeight": 71,
+      "previousHeight": 35,
+      "displayHeight": 45.71428571428571
+    },
+    {
+      "frame": "reactions/71",
+      "sourceHeight": 37,
+      "previousHeight": 20,
+      "displayHeight": 26.122448979591834
+    },
+    {
+      "frame": "reactions/72",
+      "sourceHeight": 36,
+      "previousHeight": 22,
+      "displayHeight": 28.734693877551017
+    },
+    {
+      "frame": "reactions/73",
+      "sourceHeight": 72,
+      "previousHeight": 44,
+      "displayHeight": 57.469387755102034
+    },
+    {
+      "frame": "reactions/74",
+      "sourceHeight": 87,
+      "previousHeight": 55,
+      "displayHeight": 71.83673469387755
+    },
+    {
+      "frame": "reactions/75",
+      "sourceHeight": 97,
+      "previousHeight": 56,
+      "displayHeight": 73.14285714285714
+    },
+    {
+      "frame": "reactions/76",
+      "sourceHeight": 98,
+      "previousHeight": 62,
+      "displayHeight": 80.97959183673468
+    },
+    {
+      "frame": "reactions/77",
+      "sourceHeight": 106,
+      "previousHeight": 71,
+      "displayHeight": 92.73469387755101
+    },
+    {
+      "frame": "reactions/78",
+      "sourceHeight": 117,
+      "previousHeight": 71,
+      "displayHeight": 92.73469387755101
+    },
+    {
+      "frame": "reactions/79",
+      "sourceHeight": 133,
+      "previousHeight": 72,
+      "displayHeight": 94.0408163265306
+    },
+    {
+      "frame": "reactions/80",
+      "sourceHeight": 135,
+      "previousHeight": 80,
+      "displayHeight": 104.48979591836734
+    },
+    {
+      "frame": "reactions/81",
+      "sourceHeight": 132,
+      "previousHeight": 75,
+      "displayHeight": 97.95918367346938
+    },
+    {
+      "frame": "reactions/82",
+      "sourceHeight": 130,
+      "previousHeight": 75,
+      "displayHeight": 97.95918367346938
+    },
+    {
+      "frame": "reactions/83",
+      "sourceHeight": 128,
+      "previousHeight": 70,
+      "displayHeight": 91.42857142857142
+    },
+    {
+      "frame": "reactions/84",
+      "sourceHeight": 130,
+      "previousHeight": 77,
+      "displayHeight": 100.57142857142857
+    },
+    {
+      "frame": "reactions/85",
+      "sourceHeight": 127,
+      "previousHeight": 75,
+      "displayHeight": 97.95918367346938
+    },
+    {
+      "frame": "reactions/86",
+      "sourceHeight": 128,
+      "previousHeight": 74,
+      "displayHeight": 96.65306122448979
+    },
+    {
+      "frame": "reactions/87",
+      "sourceHeight": 129,
+      "previousHeight": 81,
+      "displayHeight": 105.79591836734693
+    },
+    {
+      "frame": "reactions/88",
+      "sourceHeight": 131,
+      "previousHeight": 77,
+      "displayHeight": 100.57142857142857
+    },
+    {
+      "frame": "reactions/89",
+      "sourceHeight": 126,
+      "previousHeight": 73,
+      "displayHeight": 95.3469387755102
+    },
+    {
+      "frame": "reactions/90",
+      "sourceHeight": 127,
+      "previousHeight": 73,
+      "displayHeight": 95.3469387755102
+    },
+    {
+      "frame": "reactions/91",
+      "sourceHeight": 125,
+      "previousHeight": 71,
+      "displayHeight": 92.73469387755101
+    },
+    {
+      "frame": "reactions/92",
+      "sourceHeight": 122,
+      "previousHeight": 69,
+      "displayHeight": 90.12244897959182
+    },
+    {
+      "frame": "reactions/93",
+      "sourceHeight": 122,
+      "previousHeight": 70,
+      "displayHeight": 91.42857142857142
+    },
+    {
+      "frame": "reactions/94",
+      "sourceHeight": 114,
+      "previousHeight": 71,
+      "displayHeight": 92.73469387755101
+    },
+    {
+      "frame": "reactions/95",
+      "sourceHeight": 129,
+      "previousHeight": 78,
+      "displayHeight": 101.87755102040815
+    },
+    {
+      "frame": "reactions/96",
+      "sourceHeight": 136,
+      "previousHeight": 82,
+      "displayHeight": 107.10204081632652
+    },
+    {
+      "frame": "reactions/97",
+      "sourceHeight": 130,
+      "previousHeight": 80,
+      "displayHeight": 104.48979591836734
+    },
+    {
+      "frame": "reactions/98",
+      "sourceHeight": 128,
+      "previousHeight": 81,
+      "displayHeight": 105.79591836734693
+    },
+    {
+      "frame": "reactions/99",
+      "sourceHeight": 127,
+      "previousHeight": 82,
+      "displayHeight": 107.10204081632652
+    },
+    {
+      "frame": "reactions/100",
+      "sourceHeight": 126,
+      "previousHeight": 80,
+      "displayHeight": 104.48979591836734
+    },
+    {
+      "frame": "reactions/101",
+      "sourceHeight": 128,
+      "previousHeight": 73,
+      "displayHeight": 95.3469387755102
+    },
+    {
+      "frame": "reactions/102",
+      "sourceHeight": 126,
+      "previousHeight": 74,
+      "displayHeight": 96.65306122448979
+    },
+    {
+      "frame": "reactions/103",
+      "sourceHeight": 134,
+      "previousHeight": 81,
+      "displayHeight": 105.79591836734693
+    },
+    {
+      "frame": "reactions/104",
+      "sourceHeight": 131,
+      "previousHeight": 84,
+      "displayHeight": 109.71428571428571
+    },
+    {
+      "frame": "reactions/105",
+      "sourceHeight": 127,
+      "previousHeight": 83,
+      "displayHeight": 108.40816326530611
+    },
+    {
+      "frame": "reactions/106",
+      "sourceHeight": 115,
+      "previousHeight": 68,
+      "displayHeight": 88.81632653061224
+    },
+    {
+      "frame": "reactions/107",
+      "sourceHeight": 76,
+      "previousHeight": 47,
+      "displayHeight": 61.38775510204081
+    },
+    {
+      "frame": "reactions/108",
+      "sourceHeight": 77,
+      "previousHeight": 44,
+      "displayHeight": 57.469387755102034
+    },
+    {
+      "frame": "reactions/109",
+      "sourceHeight": 70,
+      "previousHeight": 41,
+      "displayHeight": 53.55102040816326
+    },
+    {
+      "frame": "reactions/110",
+      "sourceHeight": 57,
+      "previousHeight": 30,
+      "displayHeight": 39.18367346938775
+    },
+    {
+      "frame": "reactions/111",
+      "sourceHeight": 38,
+      "previousHeight": 20,
+      "displayHeight": 26.122448979591834
+    }
+  ],
+  "luma": [
+    {
+      "frame": "attacks/0",
+      "sourceHeight": 150,
+      "previousHeight": 81,
+      "displayHeight": 128
+    },
+    {
+      "frame": "attacks/1",
+      "sourceHeight": 150,
+      "previousHeight": 81,
+      "displayHeight": 128
+    },
+    {
+      "frame": "attacks/2",
+      "sourceHeight": 148,
+      "previousHeight": 81,
+      "displayHeight": 128
+    },
+    {
+      "frame": "attacks/3",
+      "sourceHeight": 145,
+      "previousHeight": 79,
+      "displayHeight": 124.83950617283949
+    },
+    {
+      "frame": "attacks/4",
+      "sourceHeight": 143,
+      "previousHeight": 78,
+      "displayHeight": 123.25925925925925
+    },
+    {
+      "frame": "attacks/5",
+      "sourceHeight": 140,
+      "previousHeight": 76,
+      "displayHeight": 120.09876543209876
+    },
+    {
+      "frame": "attacks/6",
+      "sourceHeight": 143,
+      "previousHeight": 80,
+      "displayHeight": 126.41975308641975
+    },
+    {
+      "frame": "attacks/7",
+      "sourceHeight": 143,
+      "previousHeight": 81,
+      "displayHeight": 128
+    },
+    {
+      "frame": "attacks/8",
+      "sourceHeight": 135,
+      "previousHeight": 76,
+      "displayHeight": 120.09876543209876
+    },
+    {
+      "frame": "attacks/9",
+      "sourceHeight": 136,
+      "previousHeight": 75,
+      "displayHeight": 118.5185185185185
+    },
+    {
+      "frame": "attacks/10",
+      "sourceHeight": 135,
+      "previousHeight": 74,
+      "displayHeight": 116.93827160493827
+    },
+    {
+      "frame": "attacks/11",
+      "sourceHeight": 134,
+      "previousHeight": 74,
+      "displayHeight": 116.93827160493827
+    },
+    {
+      "frame": "attacks/12",
+      "sourceHeight": 135,
+      "previousHeight": 74,
+      "displayHeight": 116.93827160493827
+    },
+    {
+      "frame": "attacks/13",
+      "sourceHeight": 135,
+      "previousHeight": 71,
+      "displayHeight": 112.19753086419752
+    },
+    {
+      "frame": "attacks/14",
+      "sourceHeight": 137,
+      "previousHeight": 75,
+      "displayHeight": 118.5185185185185
+    },
+    {
+      "frame": "attacks/15",
+      "sourceHeight": 137,
+      "previousHeight": 76,
+      "displayHeight": 120.09876543209876
+    },
+    {
+      "frame": "attacks/16",
+      "sourceHeight": 139,
+      "previousHeight": 76,
+      "displayHeight": 120.09876543209876
+    },
+    {
+      "frame": "attacks/17",
+      "sourceHeight": 140,
+      "previousHeight": 76,
+      "displayHeight": 120.09876543209876
+    },
+    {
+      "frame": "attacks/18",
+      "sourceHeight": 137,
+      "previousHeight": 72,
+      "displayHeight": 113.77777777777777
+    },
+    {
+      "frame": "attacks/19",
+      "sourceHeight": 138,
+      "previousHeight": 75,
+      "displayHeight": 118.5185185185185
+    },
+    {
+      "frame": "attacks/20",
+      "sourceHeight": 137,
+      "previousHeight": 78,
+      "displayHeight": 123.25925925925925
+    },
+    {
+      "frame": "attacks/21",
+      "sourceHeight": 137,
+      "previousHeight": 71,
+      "displayHeight": 112.19753086419752
+    },
+    {
+      "frame": "attacks/22",
+      "sourceHeight": 140,
+      "previousHeight": 75,
+      "displayHeight": 118.5185185185185
+    },
+    {
+      "frame": "attacks/23",
+      "sourceHeight": 140,
+      "previousHeight": 76,
+      "displayHeight": 120.09876543209876
+    },
+    {
+      "frame": "attacks/24",
+      "sourceHeight": 130,
+      "previousHeight": 71,
+      "displayHeight": 112.19753086419752
+    },
+    {
+      "frame": "attacks/25",
+      "sourceHeight": 128,
+      "previousHeight": 70,
+      "displayHeight": 110.61728395061728
+    },
+    {
+      "frame": "attacks/26",
+      "sourceHeight": 127,
+      "previousHeight": 65,
+      "displayHeight": 102.71604938271605
+    },
+    {
+      "frame": "attacks/27",
+      "sourceHeight": 124,
+      "previousHeight": 68,
+      "displayHeight": 107.45679012345678
+    },
+    {
+      "frame": "attacks/28",
+      "sourceHeight": 123,
+      "previousHeight": 66,
+      "displayHeight": 104.29629629629629
+    },
+    {
+      "frame": "attacks/29",
+      "sourceHeight": 120,
+      "previousHeight": 64,
+      "displayHeight": 101.1358024691358
+    },
+    {
+      "frame": "attacks/30",
+      "sourceHeight": 129,
+      "previousHeight": 67,
+      "displayHeight": 105.87654320987653
+    },
+    {
+      "frame": "attacks/31",
+      "sourceHeight": 129,
+      "previousHeight": 71,
+      "displayHeight": 112.19753086419752
+    },
+    {
+      "frame": "attacks/32",
+      "sourceHeight": 131,
+      "previousHeight": 75,
+      "displayHeight": 118.5185185185185
+    },
+    {
+      "frame": "attacks/33",
+      "sourceHeight": 128,
+      "previousHeight": 73,
+      "displayHeight": 115.35802469135803
+    },
+    {
+      "frame": "attacks/34",
+      "sourceHeight": 126,
+      "previousHeight": 74,
+      "displayHeight": 116.93827160493827
+    },
+    {
+      "frame": "attacks/35",
+      "sourceHeight": 127,
+      "previousHeight": 73,
+      "displayHeight": 115.35802469135803
+    },
+    {
+      "frame": "attacks/36",
+      "sourceHeight": 126,
+      "previousHeight": 73,
+      "displayHeight": 115.35802469135803
+    },
+    {
+      "frame": "attacks/37",
+      "sourceHeight": 126,
+      "previousHeight": 72,
+      "displayHeight": 113.77777777777777
+    },
+    {
+      "frame": "attacks/38",
+      "sourceHeight": 131,
+      "previousHeight": 70,
+      "displayHeight": 110.61728395061728
+    },
+    {
+      "frame": "attacks/39",
+      "sourceHeight": 131,
+      "previousHeight": 73,
+      "displayHeight": 115.35802469135803
+    },
+    {
+      "frame": "attacks/40",
+      "sourceHeight": 136,
+      "previousHeight": 76,
+      "displayHeight": 120.09876543209876
+    },
+    {
+      "frame": "attacks/41",
+      "sourceHeight": 136,
+      "previousHeight": 76,
+      "displayHeight": 120.09876543209876
+    },
+    {
+      "frame": "attacks/42",
+      "sourceHeight": 136,
+      "previousHeight": 77,
+      "displayHeight": 121.67901234567901
+    },
+    {
+      "frame": "attacks/43",
+      "sourceHeight": 137,
+      "previousHeight": 76,
+      "displayHeight": 120.09876543209876
+    },
+    {
+      "frame": "attacks/44",
+      "sourceHeight": 135,
+      "previousHeight": 76,
+      "displayHeight": 120.09876543209876
+    },
+    {
+      "frame": "attacks/45",
+      "sourceHeight": 133,
+      "previousHeight": 74,
+      "displayHeight": 116.93827160493827
+    },
+    {
+      "frame": "attacks/46",
+      "sourceHeight": 137,
+      "previousHeight": 75,
+      "displayHeight": 118.5185185185185
+    },
+    {
+      "frame": "attacks/47",
+      "sourceHeight": 137,
+      "previousHeight": 75,
+      "displayHeight": 118.5185185185185
+    },
+    {
+      "frame": "attacks/48",
+      "sourceHeight": 89,
+      "previousHeight": 54,
+      "displayHeight": 85.33333333333333
+    },
+    {
+      "frame": "attacks/49",
+      "sourceHeight": 91,
+      "previousHeight": 54,
+      "displayHeight": 85.33333333333333
+    },
+    {
+      "frame": "attacks/50",
+      "sourceHeight": 87,
+      "previousHeight": 54,
+      "displayHeight": 85.33333333333333
+    },
+    {
+      "frame": "attacks/51",
+      "sourceHeight": 87,
+      "previousHeight": 54,
+      "displayHeight": 85.33333333333333
+    },
+    {
+      "frame": "attacks/52",
+      "sourceHeight": 86,
+      "previousHeight": 54,
+      "displayHeight": 85.33333333333333
+    },
+    {
+      "frame": "attacks/53",
+      "sourceHeight": 86,
+      "previousHeight": 54,
+      "displayHeight": 85.33333333333333
+    },
+    {
+      "frame": "attacks/54",
+      "sourceHeight": 88,
+      "previousHeight": 55,
+      "displayHeight": 86.91358024691357
+    },
+    {
+      "frame": "attacks/55",
+      "sourceHeight": 88,
+      "previousHeight": 54,
+      "displayHeight": 85.33333333333333
+    },
+    {
+      "frame": "attacks/56",
+      "sourceHeight": 87,
+      "previousHeight": 52,
+      "displayHeight": 82.17283950617283
+    },
+    {
+      "frame": "attacks/57",
+      "sourceHeight": 88,
+      "previousHeight": 52,
+      "displayHeight": 82.17283950617283
+    },
+    {
+      "frame": "attacks/58",
+      "sourceHeight": 85,
+      "previousHeight": 52,
+      "displayHeight": 82.17283950617283
+    },
+    {
+      "frame": "attacks/59",
+      "sourceHeight": 86,
+      "previousHeight": 51,
+      "displayHeight": 80.59259259259258
+    },
+    {
+      "frame": "attacks/60",
+      "sourceHeight": 86,
+      "previousHeight": 51,
+      "displayHeight": 80.59259259259258
+    },
+    {
+      "frame": "attacks/61",
+      "sourceHeight": 86,
+      "previousHeight": 52,
+      "displayHeight": 82.17283950617283
+    },
+    {
+      "frame": "attacks/62",
+      "sourceHeight": 87,
+      "previousHeight": 51,
+      "displayHeight": 80.59259259259258
+    },
+    {
+      "frame": "attacks/63",
+      "sourceHeight": 87,
+      "previousHeight": 52,
+      "displayHeight": 82.17283950617283
+    },
+    {
+      "frame": "attacks/64",
+      "sourceHeight": 92,
+      "previousHeight": 53,
+      "displayHeight": 83.75308641975309
+    },
+    {
+      "frame": "attacks/65",
+      "sourceHeight": 91,
+      "previousHeight": 53,
+      "displayHeight": 83.75308641975309
+    },
+    {
+      "frame": "attacks/66",
+      "sourceHeight": 90,
+      "previousHeight": 53,
+      "displayHeight": 83.75308641975309
+    },
+    {
+      "frame": "attacks/67",
+      "sourceHeight": 85,
+      "previousHeight": 52,
+      "displayHeight": 82.17283950617283
+    },
+    {
+      "frame": "attacks/68",
+      "sourceHeight": 86,
+      "previousHeight": 52,
+      "displayHeight": 82.17283950617283
+    },
+    {
+      "frame": "attacks/69",
+      "sourceHeight": 87,
+      "previousHeight": 53,
+      "displayHeight": 83.75308641975309
+    },
+    {
+      "frame": "attacks/70",
+      "sourceHeight": 90,
+      "previousHeight": 52,
+      "displayHeight": 82.17283950617283
+    },
+    {
+      "frame": "attacks/71",
+      "sourceHeight": 90,
+      "previousHeight": 53,
+      "displayHeight": 83.75308641975309
+    },
+    {
+      "frame": "attacks/72",
+      "sourceHeight": 363,
+      "previousHeight": 51,
+      "displayHeight": 80.59259259259258
+    },
+    {
+      "frame": "attacks/73",
+      "sourceHeight": 354,
+      "previousHeight": 51,
+      "displayHeight": 80.59259259259258
+    },
+    {
+      "frame": "attacks/74",
+      "sourceHeight": 354,
+      "previousHeight": 51,
+      "displayHeight": 80.59259259259258
+    },
+    {
+      "frame": "attacks/75",
+      "sourceHeight": 349,
+      "previousHeight": 50,
+      "displayHeight": 79.01234567901234
+    },
+    {
+      "frame": "attacks/76",
+      "sourceHeight": 349,
+      "previousHeight": 49,
+      "displayHeight": 77.4320987654321
+    },
+    {
+      "frame": "attacks/77",
+      "sourceHeight": 356,
+      "previousHeight": 48,
+      "displayHeight": 75.85185185185185
+    },
+    {
+      "frame": "attacks/78",
+      "sourceHeight": 358,
+      "previousHeight": 49,
+      "displayHeight": 77.4320987654321
+    },
+    {
+      "frame": "attacks/79",
+      "sourceHeight": 361,
+      "previousHeight": 51,
+      "displayHeight": 80.59259259259258
+    },
+    {
+      "frame": "attacks/80",
+      "sourceHeight": 84,
+      "previousHeight": 51,
+      "displayHeight": 80.59259259259258
+    },
+    {
+      "frame": "attacks/81",
+      "sourceHeight": 87,
+      "previousHeight": 51,
+      "displayHeight": 80.59259259259258
+    },
+    {
+      "frame": "attacks/82",
+      "sourceHeight": 85,
+      "previousHeight": 52,
+      "displayHeight": 82.17283950617283
+    },
+    {
+      "frame": "attacks/83",
+      "sourceHeight": 85,
+      "previousHeight": 51,
+      "displayHeight": 80.59259259259258
+    },
+    {
+      "frame": "attacks/84",
+      "sourceHeight": 85,
+      "previousHeight": 52,
+      "displayHeight": 82.17283950617283
+    },
+    {
+      "frame": "attacks/85",
+      "sourceHeight": 86,
+      "previousHeight": 51,
+      "displayHeight": 80.59259259259258
+    },
+    {
+      "frame": "attacks/86",
+      "sourceHeight": 84,
+      "previousHeight": 50,
+      "displayHeight": 79.01234567901234
+    },
+    {
+      "frame": "attacks/87",
+      "sourceHeight": 84,
+      "previousHeight": 50,
+      "displayHeight": 79.01234567901234
+    },
+    {
+      "frame": "attacks/88",
+      "sourceHeight": 105,
+      "previousHeight": 51,
+      "displayHeight": 80.59259259259258
+    },
+    {
+      "frame": "attacks/89",
+      "sourceHeight": 102,
+      "previousHeight": 50,
+      "displayHeight": 79.01234567901234
+    },
+    {
+      "frame": "attacks/90",
+      "sourceHeight": 98,
+      "previousHeight": 52,
+      "displayHeight": 82.17283950617283
+    },
+    {
+      "frame": "attacks/91",
+      "sourceHeight": 90,
+      "previousHeight": 51,
+      "displayHeight": 80.59259259259258
+    },
+    {
+      "frame": "attacks/92",
+      "sourceHeight": 85,
+      "previousHeight": 52,
+      "displayHeight": 82.17283950617283
+    },
+    {
+      "frame": "attacks/93",
+      "sourceHeight": 89,
+      "previousHeight": 51,
+      "displayHeight": 80.59259259259258
+    },
+    {
+      "frame": "attacks/94",
+      "sourceHeight": 102,
+      "previousHeight": 50,
+      "displayHeight": 79.01234567901234
+    },
+    {
+      "frame": "attacks/95",
+      "sourceHeight": 102,
+      "previousHeight": 50,
+      "displayHeight": 79.01234567901234
+    },
+    {
+      "frame": "attacks/96",
+      "sourceHeight": 109,
+      "previousHeight": 65,
+      "displayHeight": 102.71604938271605
+    },
+    {
+      "frame": "attacks/97",
+      "sourceHeight": 99,
+      "previousHeight": 59,
+      "displayHeight": 93.23456790123456
+    },
+    {
+      "frame": "attacks/98",
+      "sourceHeight": 101,
+      "previousHeight": 54,
+      "displayHeight": 85.33333333333333
+    },
+    {
+      "frame": "attacks/99",
+      "sourceHeight": 106,
+      "previousHeight": 54,
+      "displayHeight": 85.33333333333333
+    },
+    {
+      "frame": "attacks/100",
+      "sourceHeight": 106,
+      "previousHeight": 54,
+      "displayHeight": 85.33333333333333
+    },
+    {
+      "frame": "attacks/101",
+      "sourceHeight": 105,
+      "previousHeight": 53,
+      "displayHeight": 83.75308641975309
+    },
+    {
+      "frame": "attacks/102",
+      "sourceHeight": 111,
+      "previousHeight": 58,
+      "displayHeight": 91.65432098765432
+    },
+    {
+      "frame": "attacks/103",
+      "sourceHeight": 111,
+      "previousHeight": 60,
+      "displayHeight": 94.81481481481481
+    },
+    {
+      "frame": "attacks/104",
+      "sourceHeight": 106,
+      "previousHeight": 61,
+      "displayHeight": 96.39506172839506
+    },
+    {
+      "frame": "attacks/105",
+      "sourceHeight": 97,
+      "previousHeight": 60,
+      "displayHeight": 94.81481481481481
+    },
+    {
+      "frame": "attacks/106",
+      "sourceHeight": 97,
+      "previousHeight": 59,
+      "displayHeight": 93.23456790123456
+    },
+    {
+      "frame": "attacks/107",
+      "sourceHeight": 108,
+      "previousHeight": 59,
+      "displayHeight": 93.23456790123456
+    },
+    {
+      "frame": "attacks/108",
+      "sourceHeight": 106,
+      "previousHeight": 57,
+      "displayHeight": 90.07407407407408
+    },
+    {
+      "frame": "attacks/109",
+      "sourceHeight": 101,
+      "previousHeight": 54,
+      "displayHeight": 85.33333333333333
+    },
+    {
+      "frame": "attacks/110",
+      "sourceHeight": 108,
+      "previousHeight": 59,
+      "displayHeight": 93.23456790123456
+    },
+    {
+      "frame": "attacks/111",
+      "sourceHeight": 108,
+      "previousHeight": 61,
+      "displayHeight": 96.39506172839506
+    },
+    {
+      "frame": "attacks/112",
+      "sourceHeight": 102,
+      "previousHeight": 62,
+      "displayHeight": 97.9753086419753
+    },
+    {
+      "frame": "attacks/113",
+      "sourceHeight": 102,
+      "previousHeight": 57,
+      "displayHeight": 90.07407407407408
+    },
+    {
+      "frame": "attacks/114",
+      "sourceHeight": 103,
+      "previousHeight": 60,
+      "displayHeight": 94.81481481481481
+    },
+    {
+      "frame": "attacks/115",
+      "sourceHeight": 107,
+      "previousHeight": 61,
+      "displayHeight": 96.39506172839506
+    },
+    {
+      "frame": "attacks/116",
+      "sourceHeight": 111,
+      "previousHeight": 60,
+      "displayHeight": 94.81481481481481
+    },
+    {
+      "frame": "attacks/117",
+      "sourceHeight": 108,
+      "previousHeight": 59,
+      "displayHeight": 93.23456790123456
+    },
+    {
+      "frame": "attacks/118",
+      "sourceHeight": 108,
+      "previousHeight": 60,
+      "displayHeight": 94.81481481481481
+    },
+    {
+      "frame": "attacks/119",
+      "sourceHeight": 108,
+      "previousHeight": 63,
+      "displayHeight": 99.55555555555554
+    },
+    {
+      "frame": "attacks/120",
+      "sourceHeight": 98,
+      "previousHeight": 59,
+      "displayHeight": 93.23456790123456
+    },
+    {
+      "frame": "attacks/121",
+      "sourceHeight": 93,
+      "previousHeight": 56,
+      "displayHeight": 88.49382716049382
+    },
+    {
+      "frame": "attacks/122",
+      "sourceHeight": 102,
+      "previousHeight": 57,
+      "displayHeight": 90.07407407407408
+    },
+    {
+      "frame": "attacks/123",
+      "sourceHeight": 91,
+      "previousHeight": 53,
+      "displayHeight": 83.75308641975309
+    },
+    {
+      "frame": "attacks/124",
+      "sourceHeight": 93,
+      "previousHeight": 50,
+      "displayHeight": 79.01234567901234
+    },
+    {
+      "frame": "attacks/125",
+      "sourceHeight": 96,
+      "previousHeight": 49,
+      "displayHeight": 77.4320987654321
+    },
+    {
+      "frame": "attacks/126",
+      "sourceHeight": 99,
+      "previousHeight": 55,
+      "displayHeight": 86.91358024691357
+    },
+    {
+      "frame": "attacks/127",
+      "sourceHeight": 99,
+      "previousHeight": 54,
+      "displayHeight": 85.33333333333333
+    },
+    {
+      "frame": "attacks/128",
+      "sourceHeight": 99,
+      "previousHeight": 63,
+      "displayHeight": 99.55555555555554
+    },
+    {
+      "frame": "attacks/129",
+      "sourceHeight": 94,
+      "previousHeight": 61,
+      "displayHeight": 96.39506172839506
+    },
+    {
+      "frame": "attacks/130",
+      "sourceHeight": 98,
+      "previousHeight": 60,
+      "displayHeight": 94.81481481481481
+    },
+    {
+      "frame": "attacks/131",
+      "sourceHeight": 96,
+      "previousHeight": 60,
+      "displayHeight": 94.81481481481481
+    },
+    {
+      "frame": "attacks/132",
+      "sourceHeight": 92,
+      "previousHeight": 65,
+      "displayHeight": 102.71604938271605
+    },
+    {
+      "frame": "attacks/133",
+      "sourceHeight": 89,
+      "previousHeight": 58,
+      "displayHeight": 91.65432098765432
+    },
+    {
+      "frame": "attacks/134",
+      "sourceHeight": 96,
+      "previousHeight": 59,
+      "displayHeight": 93.23456790123456
+    },
+    {
+      "frame": "attacks/135",
+      "sourceHeight": 96,
+      "previousHeight": 61,
+      "displayHeight": 96.39506172839506
+    },
+    {
+      "frame": "attacks/136",
+      "sourceHeight": 92,
+      "previousHeight": 63,
+      "displayHeight": 99.55555555555554
+    },
+    {
+      "frame": "attacks/137",
+      "sourceHeight": 85,
+      "previousHeight": 63,
+      "displayHeight": 99.55555555555554
+    },
+    {
+      "frame": "attacks/138",
+      "sourceHeight": 91,
+      "previousHeight": 63,
+      "displayHeight": 99.55555555555554
+    },
+    {
+      "frame": "attacks/139",
+      "sourceHeight": 90,
+      "previousHeight": 64,
+      "displayHeight": 101.1358024691358
+    },
+    {
+      "frame": "attacks/140",
+      "sourceHeight": 90,
+      "previousHeight": 63,
+      "displayHeight": 99.55555555555554
+    },
+    {
+      "frame": "attacks/141",
+      "sourceHeight": 94,
+      "previousHeight": 63,
+      "displayHeight": 99.55555555555554
+    },
+    {
+      "frame": "attacks/142",
+      "sourceHeight": 94,
+      "previousHeight": 60,
+      "displayHeight": 94.81481481481481
+    },
+    {
+      "frame": "attacks/143",
+      "sourceHeight": 94,
+      "previousHeight": 61,
+      "displayHeight": 96.39506172839506
+    },
+    {
+      "frame": "attacks/144",
+      "sourceHeight": 109,
+      "previousHeight": 62,
+      "displayHeight": 97.9753086419753
+    },
+    {
+      "frame": "attacks/145",
+      "sourceHeight": 103,
+      "previousHeight": 62,
+      "displayHeight": 97.9753086419753
+    },
+    {
+      "frame": "attacks/146",
+      "sourceHeight": 99,
+      "previousHeight": 57,
+      "displayHeight": 90.07407407407408
+    },
+    {
+      "frame": "attacks/147",
+      "sourceHeight": 99,
+      "previousHeight": 59,
+      "displayHeight": 93.23456790123456
+    },
+    {
+      "frame": "attacks/148",
+      "sourceHeight": 101,
+      "previousHeight": 61,
+      "displayHeight": 96.39506172839506
+    },
+    {
+      "frame": "attacks/149",
+      "sourceHeight": 99,
+      "previousHeight": 57,
+      "displayHeight": 90.07407407407408
+    },
+    {
+      "frame": "attacks/150",
+      "sourceHeight": 106,
+      "previousHeight": 60,
+      "displayHeight": 94.81481481481481
+    },
+    {
+      "frame": "attacks/151",
+      "sourceHeight": 106,
+      "previousHeight": 60,
+      "displayHeight": 94.81481481481481
+    },
+    {
+      "frame": "attacks/152",
+      "sourceHeight": 101,
+      "previousHeight": 60,
+      "displayHeight": 94.81481481481481
+    },
+    {
+      "frame": "attacks/153",
+      "sourceHeight": 103,
+      "previousHeight": 56,
+      "displayHeight": 88.49382716049382
+    },
+    {
+      "frame": "attacks/154",
+      "sourceHeight": 113,
+      "previousHeight": 70,
+      "displayHeight": 110.61728395061728
+    },
+    {
+      "frame": "attacks/155",
+      "sourceHeight": 129,
+      "previousHeight": 67,
+      "displayHeight": 105.87654320987653
+    },
+    {
+      "frame": "attacks/156",
+      "sourceHeight": 128,
+      "previousHeight": 71,
+      "displayHeight": 112.19753086419752
+    },
+    {
+      "frame": "attacks/157",
+      "sourceHeight": 114,
+      "previousHeight": 76,
+      "displayHeight": 120.09876543209876
+    },
+    {
+      "frame": "attacks/158",
+      "sourceHeight": 108,
+      "previousHeight": 61,
+      "displayHeight": 96.39506172839506
+    },
+    {
+      "frame": "attacks/159",
+      "sourceHeight": 108,
+      "previousHeight": 69,
+      "displayHeight": 109.03703703703704
+    },
+    {
+      "frame": "attacks/160",
+      "sourceHeight": 102,
+      "previousHeight": 63,
+      "displayHeight": 99.55555555555554
+    },
+    {
+      "frame": "attacks/161",
+      "sourceHeight": 105,
+      "previousHeight": 61,
+      "displayHeight": 96.39506172839506
+    },
+    {
+      "frame": "attacks/162",
+      "sourceHeight": 109,
+      "previousHeight": 63,
+      "displayHeight": 99.55555555555554
+    },
+    {
+      "frame": "attacks/163",
+      "sourceHeight": 106,
+      "previousHeight": 62,
+      "displayHeight": 97.9753086419753
+    },
+    {
+      "frame": "attacks/164",
+      "sourceHeight": 110,
+      "previousHeight": 63,
+      "displayHeight": 99.55555555555554
+    },
+    {
+      "frame": "attacks/165",
+      "sourceHeight": 108,
+      "previousHeight": 63,
+      "displayHeight": 99.55555555555554
+    },
+    {
+      "frame": "attacks/166",
+      "sourceHeight": 103,
+      "previousHeight": 59,
+      "displayHeight": 93.23456790123456
+    },
+    {
+      "frame": "attacks/167",
+      "sourceHeight": 103,
+      "previousHeight": 61,
+      "displayHeight": 96.39506172839506
+    },
+    {
+      "frame": "attacks/168",
+      "sourceHeight": 105,
+      "previousHeight": 67,
+      "displayHeight": 105.87654320987653
+    },
+    {
+      "frame": "attacks/169",
+      "sourceHeight": 97,
+      "previousHeight": 63,
+      "displayHeight": 99.55555555555554
+    },
+    {
+      "frame": "attacks/170",
+      "sourceHeight": 98,
+      "previousHeight": 65,
+      "displayHeight": 102.71604938271605
+    },
+    {
+      "frame": "attacks/171",
+      "sourceHeight": 102,
+      "previousHeight": 64,
+      "displayHeight": 101.1358024691358
+    },
+    {
+      "frame": "attacks/172",
+      "sourceHeight": 101,
+      "previousHeight": 66,
+      "displayHeight": 104.29629629629629
+    },
+    {
+      "frame": "attacks/173",
+      "sourceHeight": 102,
+      "previousHeight": 64,
+      "displayHeight": 101.1358024691358
+    },
+    {
+      "frame": "attacks/174",
+      "sourceHeight": 103,
+      "previousHeight": 64,
+      "displayHeight": 101.1358024691358
+    },
+    {
+      "frame": "attacks/175",
+      "sourceHeight": 103,
+      "previousHeight": 69,
+      "displayHeight": 109.03703703703704
+    },
+    {
+      "frame": "motion/0",
+      "sourceHeight": 187,
+      "previousHeight": 110,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/1",
+      "sourceHeight": 186,
+      "previousHeight": 112,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/2",
+      "sourceHeight": 186,
+      "previousHeight": 111,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/3",
+      "sourceHeight": 180,
+      "previousHeight": 109,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/4",
+      "sourceHeight": 177,
+      "previousHeight": 109,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/5",
+      "sourceHeight": 176,
+      "previousHeight": 108,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/6",
+      "sourceHeight": 174,
+      "previousHeight": 107,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/7",
+      "sourceHeight": 173,
+      "previousHeight": 108,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/8",
+      "sourceHeight": 176,
+      "previousHeight": 101,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/9",
+      "sourceHeight": 174,
+      "previousHeight": 100,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/10",
+      "sourceHeight": 175,
+      "previousHeight": 101,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/11",
+      "sourceHeight": 174,
+      "previousHeight": 99,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/12",
+      "sourceHeight": 174,
+      "previousHeight": 100,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/13",
+      "sourceHeight": 171,
+      "previousHeight": 99,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/14",
+      "sourceHeight": 171,
+      "previousHeight": 99,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/15",
+      "sourceHeight": 170,
+      "previousHeight": 99,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/16",
+      "sourceHeight": 169,
+      "previousHeight": 93,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/17",
+      "sourceHeight": 166,
+      "previousHeight": 94,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/18",
+      "sourceHeight": 167,
+      "previousHeight": 94,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/19",
+      "sourceHeight": 165,
+      "previousHeight": 95,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/20",
+      "sourceHeight": 165,
+      "previousHeight": 95,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/21",
+      "sourceHeight": 164,
+      "previousHeight": 94,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/22",
+      "sourceHeight": 165,
+      "previousHeight": 94,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/23",
+      "sourceHeight": 165,
+      "previousHeight": 91,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/24",
+      "sourceHeight": 163,
+      "previousHeight": 107,
+      "displayHeight": 124.5090909090909
+    },
+    {
+      "frame": "motion/25",
+      "sourceHeight": 157,
+      "previousHeight": 100,
+      "displayHeight": 116.36363636363636
+    },
+    {
+      "frame": "motion/26",
+      "sourceHeight": 147,
+      "previousHeight": 91,
+      "displayHeight": 105.89090909090909
+    },
+    {
+      "frame": "motion/27",
+      "sourceHeight": 137,
+      "previousHeight": 84,
+      "displayHeight": 97.74545454545454
+    },
+    {
+      "frame": "motion/28",
+      "sourceHeight": 126,
+      "previousHeight": 77,
+      "displayHeight": 89.6
+    },
+    {
+      "frame": "motion/29",
+      "sourceHeight": 119,
+      "previousHeight": 68,
+      "displayHeight": 79.12727272727273
+    },
+    {
+      "frame": "motion/30",
+      "sourceHeight": 110,
+      "previousHeight": 65,
+      "displayHeight": 75.63636363636363
+    },
+    {
+      "frame": "motion/31",
+      "sourceHeight": 101,
+      "previousHeight": 61,
+      "displayHeight": 70.98181818181818
+    },
+    {
+      "frame": "motion/32",
+      "sourceHeight": 116,
+      "previousHeight": 72,
+      "displayHeight": 83.78181818181818
+    },
+    {
+      "frame": "motion/33",
+      "sourceHeight": 115,
+      "previousHeight": 70,
+      "displayHeight": 81.45454545454545
+    },
+    {
+      "frame": "motion/34",
+      "sourceHeight": 112,
+      "previousHeight": 70,
+      "displayHeight": 81.45454545454545
+    },
+    {
+      "frame": "motion/35",
+      "sourceHeight": 111,
+      "previousHeight": 69,
+      "displayHeight": 80.29090909090908
+    },
+    {
+      "frame": "motion/36",
+      "sourceHeight": 109,
+      "previousHeight": 68,
+      "displayHeight": 79.12727272727273
+    },
+    {
+      "frame": "motion/37",
+      "sourceHeight": 107,
+      "previousHeight": 67,
+      "displayHeight": 77.96363636363635
+    },
+    {
+      "frame": "motion/38",
+      "sourceHeight": 104,
+      "previousHeight": 67,
+      "displayHeight": 77.96363636363635
+    },
+    {
+      "frame": "motion/39",
+      "sourceHeight": 102,
+      "previousHeight": 66,
+      "displayHeight": 76.8
+    },
+    {
+      "frame": "motion/40",
+      "sourceHeight": 105,
+      "previousHeight": 63,
+      "displayHeight": 73.30909090909091
+    },
+    {
+      "frame": "motion/41",
+      "sourceHeight": 107,
+      "previousHeight": 66,
+      "displayHeight": 76.8
+    },
+    {
+      "frame": "motion/42",
+      "sourceHeight": 115,
+      "previousHeight": 73,
+      "displayHeight": 84.94545454545454
+    },
+    {
+      "frame": "motion/43",
+      "sourceHeight": 124,
+      "previousHeight": 80,
+      "displayHeight": 93.0909090909091
+    },
+    {
+      "frame": "motion/44",
+      "sourceHeight": 132,
+      "previousHeight": 89,
+      "displayHeight": 103.56363636363636
+    },
+    {
+      "frame": "motion/45",
+      "sourceHeight": 133,
+      "previousHeight": 93,
+      "displayHeight": 108.21818181818182
+    },
+    {
+      "frame": "motion/46",
+      "sourceHeight": 137,
+      "previousHeight": 100,
+      "displayHeight": 116.36363636363636
+    },
+    {
+      "frame": "motion/47",
+      "sourceHeight": 140,
+      "previousHeight": 101,
+      "displayHeight": 117.52727272727272
+    },
+    {
+      "frame": "motion/48",
+      "sourceHeight": 129,
+      "previousHeight": 69,
+      "displayHeight": 80.29090909090908
+    },
+    {
+      "frame": "motion/49",
+      "sourceHeight": 148,
+      "previousHeight": 84,
+      "displayHeight": 97.74545454545454
+    },
+    {
+      "frame": "motion/50",
+      "sourceHeight": 177,
+      "previousHeight": 103,
+      "displayHeight": 119.85454545454544
+    },
+    {
+      "frame": "motion/51",
+      "sourceHeight": 127,
+      "previousHeight": 77,
+      "displayHeight": 89.6
+    },
+    {
+      "frame": "motion/52",
+      "sourceHeight": 133,
+      "previousHeight": 76,
+      "displayHeight": 88.43636363636364
+    },
+    {
+      "frame": "motion/53",
+      "sourceHeight": 149,
+      "previousHeight": 84,
+      "displayHeight": 97.74545454545454
+    },
+    {
+      "frame": "motion/54",
+      "sourceHeight": 157,
+      "previousHeight": 75,
+      "displayHeight": 87.27272727272727
+    },
+    {
+      "frame": "motion/55",
+      "sourceHeight": 144,
+      "previousHeight": 86,
+      "displayHeight": 100.07272727272726
+    },
+    {
+      "frame": "motion/56",
+      "sourceHeight": 142,
+      "previousHeight": 82,
+      "displayHeight": 95.41818181818181
+    },
+    {
+      "frame": "motion/57",
+      "sourceHeight": 136,
+      "previousHeight": 76,
+      "displayHeight": 88.43636363636364
+    },
+    {
+      "frame": "motion/58",
+      "sourceHeight": 129,
+      "previousHeight": 72,
+      "displayHeight": 83.78181818181818
+    },
+    {
+      "frame": "motion/59",
+      "sourceHeight": 132,
+      "previousHeight": 75,
+      "displayHeight": 87.27272727272727
+    },
+    {
+      "frame": "motion/60",
+      "sourceHeight": 124,
+      "previousHeight": 77,
+      "displayHeight": 89.6
+    },
+    {
+      "frame": "motion/61",
+      "sourceHeight": 131,
+      "previousHeight": 79,
+      "displayHeight": 91.92727272727272
+    },
+    {
+      "frame": "motion/62",
+      "sourceHeight": 138,
+      "previousHeight": 81,
+      "displayHeight": 94.25454545454545
+    },
+    {
+      "frame": "motion/63",
+      "sourceHeight": 142,
+      "previousHeight": 84,
+      "displayHeight": 97.74545454545454
+    },
+    {
+      "frame": "motion/64",
+      "sourceHeight": 146,
+      "previousHeight": 88,
+      "displayHeight": 102.39999999999999
+    },
+    {
+      "frame": "motion/65",
+      "sourceHeight": 142,
+      "previousHeight": 85,
+      "displayHeight": 98.9090909090909
+    },
+    {
+      "frame": "motion/66",
+      "sourceHeight": 139,
+      "previousHeight": 70,
+      "displayHeight": 81.45454545454545
+    },
+    {
+      "frame": "motion/67",
+      "sourceHeight": 139,
+      "previousHeight": 69,
+      "displayHeight": 80.29090909090908
+    },
+    {
+      "frame": "motion/68",
+      "sourceHeight": 132,
+      "previousHeight": 71,
+      "displayHeight": 82.61818181818181
+    },
+    {
+      "frame": "motion/69",
+      "sourceHeight": 122,
+      "previousHeight": 74,
+      "displayHeight": 86.10909090909091
+    },
+    {
+      "frame": "motion/70",
+      "sourceHeight": 133,
+      "previousHeight": 66,
+      "displayHeight": 76.8
+    },
+    {
+      "frame": "motion/71",
+      "sourceHeight": 141,
+      "previousHeight": 87,
+      "displayHeight": 101.23636363636363
+    },
+    {
+      "frame": "motion/72",
+      "sourceHeight": 155,
+      "previousHeight": 95,
+      "displayHeight": 110.54545454545455
+    },
+    {
+      "frame": "motion/73",
+      "sourceHeight": 157,
+      "previousHeight": 93,
+      "displayHeight": 108.21818181818182
+    },
+    {
+      "frame": "motion/74",
+      "sourceHeight": 158,
+      "previousHeight": 96,
+      "displayHeight": 111.7090909090909
+    },
+    {
+      "frame": "motion/75",
+      "sourceHeight": 166,
+      "previousHeight": 107,
+      "displayHeight": 124.5090909090909
+    },
+    {
+      "frame": "motion/76",
+      "sourceHeight": 183,
+      "previousHeight": 111,
+      "displayHeight": 129.16363636363636
+    },
+    {
+      "frame": "motion/77",
+      "sourceHeight": 183,
+      "previousHeight": 110,
+      "displayHeight": 128
+    },
+    {
+      "frame": "motion/78",
+      "sourceHeight": 171,
+      "previousHeight": 102,
+      "displayHeight": 118.69090909090909
+    },
+    {
+      "frame": "motion/79",
+      "sourceHeight": 171,
+      "previousHeight": 96,
+      "displayHeight": 111.7090909090909
+    },
+    {
+      "frame": "motion/80",
+      "sourceHeight": 105,
+      "previousHeight": 92,
+      "displayHeight": 107.05454545454545
+    },
+    {
+      "frame": "motion/81",
+      "sourceHeight": 113,
+      "previousHeight": 84,
+      "displayHeight": 97.74545454545454
+    },
+    {
+      "frame": "motion/82",
+      "sourceHeight": 98,
+      "previousHeight": 74,
+      "displayHeight": 86.10909090909091
+    },
+    {
+      "frame": "motion/83",
+      "sourceHeight": 72,
+      "previousHeight": 50,
+      "displayHeight": 58.18181818181818
+    },
+    {
+      "frame": "motion/84",
+      "sourceHeight": 54,
+      "previousHeight": 42,
+      "displayHeight": 48.87272727272727
+    },
+    {
+      "frame": "motion/85",
+      "sourceHeight": 43,
+      "previousHeight": 33,
+      "displayHeight": 38.4
+    },
+    {
+      "frame": "motion/86",
+      "sourceHeight": 40,
+      "previousHeight": 27,
+      "displayHeight": 31.418181818181818
+    },
+    {
+      "frame": "motion/87",
+      "sourceHeight": 35,
+      "previousHeight": 22,
+      "displayHeight": 25.599999999999998
+    },
+    {
+      "frame": "motion/88",
+      "sourceHeight": 34,
+      "previousHeight": 22,
+      "displayHeight": 25.599999999999998
+    },
+    {
+      "frame": "motion/89",
+      "sourceHeight": 49,
+      "previousHeight": 32,
+      "displayHeight": 37.236363636363635
+    },
+    {
+      "frame": "motion/90",
+      "sourceHeight": 85,
+      "previousHeight": 59,
+      "displayHeight": 68.65454545454546
+    },
+    {
+      "frame": "motion/91",
+      "sourceHeight": 97,
+      "previousHeight": 65,
+      "displayHeight": 75.63636363636363
+    },
+    {
+      "frame": "motion/92",
+      "sourceHeight": 101,
+      "previousHeight": 67,
+      "displayHeight": 77.96363636363635
+    },
+    {
+      "frame": "motion/93",
+      "sourceHeight": 101,
+      "previousHeight": 74,
+      "displayHeight": 86.10909090909091
+    },
+    {
+      "frame": "motion/94",
+      "sourceHeight": 111,
+      "previousHeight": 84,
+      "displayHeight": 97.74545454545454
+    },
+    {
+      "frame": "motion/95",
+      "sourceHeight": 120,
+      "previousHeight": 91,
+      "displayHeight": 105.89090909090909
+    },
+    {
+      "frame": "reactions/64",
+      "sourceHeight": 105,
+      "previousHeight": 92,
+      "displayHeight": 154.94736842105263
+    },
+    {
+      "frame": "reactions/65",
+      "sourceHeight": 113,
+      "previousHeight": 84,
+      "displayHeight": 141.4736842105263
+    },
+    {
+      "frame": "reactions/66",
+      "sourceHeight": 98,
+      "previousHeight": 74,
+      "displayHeight": 124.63157894736841
+    },
+    {
+      "frame": "reactions/67",
+      "sourceHeight": 72,
+      "previousHeight": 50,
+      "displayHeight": 84.21052631578947
+    },
+    {
+      "frame": "reactions/68",
+      "sourceHeight": 54,
+      "previousHeight": 42,
+      "displayHeight": 70.73684210526315
+    },
+    {
+      "frame": "reactions/69",
+      "sourceHeight": 43,
+      "previousHeight": 33,
+      "displayHeight": 55.57894736842105
+    },
+    {
+      "frame": "reactions/70",
+      "sourceHeight": 40,
+      "previousHeight": 27,
+      "displayHeight": 45.473684210526315
+    },
+    {
+      "frame": "reactions/71",
+      "sourceHeight": 35,
+      "previousHeight": 22,
+      "displayHeight": 37.05263157894737
+    },
+    {
+      "frame": "reactions/0",
+      "sourceHeight": 153,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/1",
+      "sourceHeight": 153,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/2",
+      "sourceHeight": 154,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/3",
+      "sourceHeight": 155,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/4",
+      "sourceHeight": 154,
+      "previousHeight": 77,
+      "displayHeight": 129.68421052631578
+    },
+    {
+      "frame": "reactions/5",
+      "sourceHeight": 154,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/6",
+      "sourceHeight": 153,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/7",
+      "sourceHeight": 153,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/8",
+      "sourceHeight": 154,
+      "previousHeight": 77,
+      "displayHeight": 129.68421052631578
+    },
+    {
+      "frame": "reactions/9",
+      "sourceHeight": 142,
+      "previousHeight": 70,
+      "displayHeight": 117.89473684210526
+    },
+    {
+      "frame": "reactions/10",
+      "sourceHeight": 128,
+      "previousHeight": 60,
+      "displayHeight": 101.05263157894737
+    },
+    {
+      "frame": "reactions/11",
+      "sourceHeight": 114,
+      "previousHeight": 54,
+      "displayHeight": 90.94736842105263
+    },
+    {
+      "frame": "reactions/12",
+      "sourceHeight": 110,
+      "previousHeight": 51,
+      "displayHeight": 85.89473684210526
+    },
+    {
+      "frame": "reactions/13",
+      "sourceHeight": 119,
+      "previousHeight": 58,
+      "displayHeight": 97.68421052631578
+    },
+    {
+      "frame": "reactions/14",
+      "sourceHeight": 135,
+      "previousHeight": 66,
+      "displayHeight": 111.1578947368421
+    },
+    {
+      "frame": "reactions/15",
+      "sourceHeight": 154,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/16",
+      "sourceHeight": 154,
+      "previousHeight": 77,
+      "displayHeight": 129.68421052631578
+    },
+    {
+      "frame": "reactions/17",
+      "sourceHeight": 147,
+      "previousHeight": 73,
+      "displayHeight": 122.94736842105263
+    },
+    {
+      "frame": "reactions/18",
+      "sourceHeight": 160,
+      "previousHeight": 75,
+      "displayHeight": 126.3157894736842
+    },
+    {
+      "frame": "reactions/19",
+      "sourceHeight": 162,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/20",
+      "sourceHeight": 150,
+      "previousHeight": 72,
+      "displayHeight": 121.26315789473684
+    },
+    {
+      "frame": "reactions/21",
+      "sourceHeight": 147,
+      "previousHeight": 71,
+      "displayHeight": 119.57894736842104
+    },
+    {
+      "frame": "reactions/22",
+      "sourceHeight": 146,
+      "previousHeight": 70,
+      "displayHeight": 117.89473684210526
+    },
+    {
+      "frame": "reactions/23",
+      "sourceHeight": 154,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/24",
+      "sourceHeight": 154,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/25",
+      "sourceHeight": 151,
+      "previousHeight": 73,
+      "displayHeight": 122.94736842105263
+    },
+    {
+      "frame": "reactions/26",
+      "sourceHeight": 147,
+      "previousHeight": 66,
+      "displayHeight": 111.1578947368421
+    },
+    {
+      "frame": "reactions/27",
+      "sourceHeight": 137,
+      "previousHeight": 65,
+      "displayHeight": 109.47368421052632
+    },
+    {
+      "frame": "reactions/28",
+      "sourceHeight": 135,
+      "previousHeight": 56,
+      "displayHeight": 94.3157894736842
+    },
+    {
+      "frame": "reactions/29",
+      "sourceHeight": 136,
+      "previousHeight": 62,
+      "displayHeight": 104.42105263157895
+    },
+    {
+      "frame": "reactions/30",
+      "sourceHeight": 144,
+      "previousHeight": 67,
+      "displayHeight": 112.84210526315789
+    },
+    {
+      "frame": "reactions/31",
+      "sourceHeight": 154,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/32",
+      "sourceHeight": 154,
+      "previousHeight": 78,
+      "displayHeight": 131.36842105263156
+    },
+    {
+      "frame": "reactions/33",
+      "sourceHeight": 147,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/34",
+      "sourceHeight": 160,
+      "previousHeight": 72,
+      "displayHeight": 121.26315789473684
+    },
+    {
+      "frame": "reactions/35",
+      "sourceHeight": 162,
+      "previousHeight": 74,
+      "displayHeight": 124.63157894736841
+    },
+    {
+      "frame": "reactions/36",
+      "sourceHeight": 150,
+      "previousHeight": 77,
+      "displayHeight": 129.68421052631578
+    },
+    {
+      "frame": "reactions/37",
+      "sourceHeight": 147,
+      "previousHeight": 78,
+      "displayHeight": 131.36842105263156
+    },
+    {
+      "frame": "reactions/38",
+      "sourceHeight": 146,
+      "previousHeight": 74,
+      "displayHeight": 124.63157894736841
+    },
+    {
+      "frame": "reactions/39",
+      "sourceHeight": 154,
+      "previousHeight": 77,
+      "displayHeight": 129.68421052631578
+    },
+    {
+      "frame": "reactions/40",
+      "sourceHeight": 154,
+      "previousHeight": 77,
+      "displayHeight": 129.68421052631578
+    },
+    {
+      "frame": "reactions/41",
+      "sourceHeight": 152,
+      "previousHeight": 77,
+      "displayHeight": 129.68421052631578
+    },
+    {
+      "frame": "reactions/42",
+      "sourceHeight": 147,
+      "previousHeight": 71,
+      "displayHeight": 119.57894736842104
+    },
+    {
+      "frame": "reactions/43",
+      "sourceHeight": 149,
+      "previousHeight": 66,
+      "displayHeight": 111.1578947368421
+    },
+    {
+      "frame": "reactions/44",
+      "sourceHeight": 142,
+      "previousHeight": 70,
+      "displayHeight": 117.89473684210526
+    },
+    {
+      "frame": "reactions/45",
+      "sourceHeight": 139,
+      "previousHeight": 70,
+      "displayHeight": 117.89473684210526
+    },
+    {
+      "frame": "reactions/46",
+      "sourceHeight": 144,
+      "previousHeight": 73,
+      "displayHeight": 122.94736842105263
+    },
+    {
+      "frame": "reactions/47",
+      "sourceHeight": 153,
+      "previousHeight": 77,
+      "displayHeight": 129.68421052631578
+    },
+    {
+      "frame": "reactions/48",
+      "sourceHeight": 153,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/49",
+      "sourceHeight": 139,
+      "previousHeight": 67,
+      "displayHeight": 112.84210526315789
+    },
+    {
+      "frame": "reactions/50",
+      "sourceHeight": 129,
+      "previousHeight": 61,
+      "displayHeight": 102.73684210526315
+    },
+    {
+      "frame": "reactions/51",
+      "sourceHeight": 109,
+      "previousHeight": 54,
+      "displayHeight": 90.94736842105263
+    },
+    {
+      "frame": "reactions/52",
+      "sourceHeight": 97,
+      "previousHeight": 65,
+      "displayHeight": 109.47368421052632
+    },
+    {
+      "frame": "reactions/53",
+      "sourceHeight": 117,
+      "previousHeight": 68,
+      "displayHeight": 114.52631578947367
+    },
+    {
+      "frame": "reactions/54",
+      "sourceHeight": 137,
+      "previousHeight": 71,
+      "displayHeight": 119.57894736842104
+    },
+    {
+      "frame": "reactions/55",
+      "sourceHeight": 153,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/56",
+      "sourceHeight": 149,
+      "previousHeight": 77,
+      "displayHeight": 129.68421052631578
+    },
+    {
+      "frame": "reactions/57",
+      "sourceHeight": 139,
+      "previousHeight": 74,
+      "displayHeight": 124.63157894736841
+    },
+    {
+      "frame": "reactions/58",
+      "sourceHeight": 122,
+      "previousHeight": 66,
+      "displayHeight": 111.1578947368421
+    },
+    {
+      "frame": "reactions/59",
+      "sourceHeight": 103,
+      "previousHeight": 56,
+      "displayHeight": 94.3157894736842
+    },
+    {
+      "frame": "reactions/60",
+      "sourceHeight": 77,
+      "previousHeight": 37,
+      "displayHeight": 62.315789473684205
+    },
+    {
+      "frame": "reactions/61",
+      "sourceHeight": 60,
+      "previousHeight": 29,
+      "displayHeight": 48.84210526315789
+    },
+    {
+      "frame": "reactions/62",
+      "sourceHeight": 51,
+      "previousHeight": 25,
+      "displayHeight": 42.10526315789473
+    },
+    {
+      "frame": "reactions/63",
+      "sourceHeight": 39,
+      "previousHeight": 77,
+      "displayHeight": 129.68421052631578
+    },
+    {
+      "frame": "reactions/72",
+      "sourceHeight": 39,
+      "previousHeight": 18,
+      "displayHeight": 30.31578947368421
+    },
+    {
+      "frame": "reactions/73",
+      "sourceHeight": 66,
+      "previousHeight": 35,
+      "displayHeight": 58.94736842105263
+    },
+    {
+      "frame": "reactions/74",
+      "sourceHeight": 85,
+      "previousHeight": 46,
+      "displayHeight": 77.47368421052632
+    },
+    {
+      "frame": "reactions/75",
+      "sourceHeight": 100,
+      "previousHeight": 49,
+      "displayHeight": 82.52631578947368
+    },
+    {
+      "frame": "reactions/76",
+      "sourceHeight": 108,
+      "previousHeight": 56,
+      "displayHeight": 94.3157894736842
+    },
+    {
+      "frame": "reactions/77",
+      "sourceHeight": 124,
+      "previousHeight": 61,
+      "displayHeight": 102.73684210526315
+    },
+    {
+      "frame": "reactions/78",
+      "sourceHeight": 128,
+      "previousHeight": 69,
+      "displayHeight": 116.21052631578947
+    },
+    {
+      "frame": "reactions/79",
+      "sourceHeight": 136,
+      "previousHeight": 69,
+      "displayHeight": 116.21052631578947
+    },
+    {
+      "frame": "reactions/80",
+      "sourceHeight": 139,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/81",
+      "sourceHeight": 131,
+      "previousHeight": 68,
+      "displayHeight": 114.52631578947367
+    },
+    {
+      "frame": "reactions/82",
+      "sourceHeight": 130,
+      "previousHeight": 69,
+      "displayHeight": 116.21052631578947
+    },
+    {
+      "frame": "reactions/83",
+      "sourceHeight": 130,
+      "previousHeight": 66,
+      "displayHeight": 111.1578947368421
+    },
+    {
+      "frame": "reactions/84",
+      "sourceHeight": 132,
+      "previousHeight": 71,
+      "displayHeight": 119.57894736842104
+    },
+    {
+      "frame": "reactions/85",
+      "sourceHeight": 128,
+      "previousHeight": 68,
+      "displayHeight": 114.52631578947367
+    },
+    {
+      "frame": "reactions/86",
+      "sourceHeight": 134,
+      "previousHeight": 68,
+      "displayHeight": 114.52631578947367
+    },
+    {
+      "frame": "reactions/87",
+      "sourceHeight": 133,
+      "previousHeight": 72,
+      "displayHeight": 121.26315789473684
+    },
+    {
+      "frame": "reactions/88",
+      "sourceHeight": 137,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/89",
+      "sourceHeight": 133,
+      "previousHeight": 72,
+      "displayHeight": 121.26315789473684
+    },
+    {
+      "frame": "reactions/90",
+      "sourceHeight": 131,
+      "previousHeight": 71,
+      "displayHeight": 119.57894736842104
+    },
+    {
+      "frame": "reactions/91",
+      "sourceHeight": 130,
+      "previousHeight": 72,
+      "displayHeight": 121.26315789473684
+    },
+    {
+      "frame": "reactions/92",
+      "sourceHeight": 133,
+      "previousHeight": 66,
+      "displayHeight": 111.1578947368421
+    },
+    {
+      "frame": "reactions/93",
+      "sourceHeight": 128,
+      "previousHeight": 67,
+      "displayHeight": 112.84210526315789
+    },
+    {
+      "frame": "reactions/94",
+      "sourceHeight": 129,
+      "previousHeight": 75,
+      "displayHeight": 126.3157894736842
+    },
+    {
+      "frame": "reactions/95",
+      "sourceHeight": 137,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/96",
+      "sourceHeight": 137,
+      "previousHeight": 75,
+      "displayHeight": 126.3157894736842
+    },
+    {
+      "frame": "reactions/97",
+      "sourceHeight": 134,
+      "previousHeight": 70,
+      "displayHeight": 117.89473684210526
+    },
+    {
+      "frame": "reactions/98",
+      "sourceHeight": 136,
+      "previousHeight": 72,
+      "displayHeight": 121.26315789473684
+    },
+    {
+      "frame": "reactions/99",
+      "sourceHeight": 137,
+      "previousHeight": 72,
+      "displayHeight": 121.26315789473684
+    },
+    {
+      "frame": "reactions/100",
+      "sourceHeight": 139,
+      "previousHeight": 75,
+      "displayHeight": 126.3157894736842
+    },
+    {
+      "frame": "reactions/101",
+      "sourceHeight": 134,
+      "previousHeight": 69,
+      "displayHeight": 116.21052631578947
+    },
+    {
+      "frame": "reactions/102",
+      "sourceHeight": 133,
+      "previousHeight": 71,
+      "displayHeight": 119.57894736842104
+    },
+    {
+      "frame": "reactions/103",
+      "sourceHeight": 136,
+      "previousHeight": 75,
+      "displayHeight": 126.3157894736842
+    },
+    {
+      "frame": "reactions/104",
+      "sourceHeight": 136,
+      "previousHeight": 78,
+      "displayHeight": 131.36842105263156
+    },
+    {
+      "frame": "reactions/105",
+      "sourceHeight": 138,
+      "previousHeight": 79,
+      "displayHeight": 133.05263157894737
+    },
+    {
+      "frame": "reactions/106",
+      "sourceHeight": 138,
+      "previousHeight": 76,
+      "displayHeight": 128
+    },
+    {
+      "frame": "reactions/107",
+      "sourceHeight": 89,
+      "previousHeight": 48,
+      "displayHeight": 80.84210526315789
+    },
+    {
+      "frame": "reactions/108",
+      "sourceHeight": 108,
+      "previousHeight": 59,
+      "displayHeight": 99.36842105263158
+    },
+    {
+      "frame": "reactions/109",
+      "sourceHeight": 83,
+      "previousHeight": 49,
+      "displayHeight": 82.52631578947368
+    },
+    {
+      "frame": "reactions/110",
+      "sourceHeight": 59,
+      "previousHeight": 36,
+      "displayHeight": 60.63157894736842
+    },
+    {
+      "frame": "reactions/111",
+      "sourceHeight": 39,
+      "previousHeight": 17,
+      "displayHeight": 28.631578947368418
+    }
+  ],
+  "joao": [
+    {
+      "frame": "joao/0",
+      "sourceHeight": 353,
+      "previousHeight": 132,
+      "displayHeight": 132
+    },
+    {
+      "frame": "joao/1",
+      "sourceHeight": 349,
+      "previousHeight": 134,
+      "displayHeight": 132
+    },
+    {
+      "frame": "joao/2",
+      "sourceHeight": 347,
+      "previousHeight": 130,
+      "displayHeight": 132
+    },
+    {
+      "frame": "joao/3",
+      "sourceHeight": 345,
+      "previousHeight": 131,
+      "displayHeight": 132
+    },
+    {
+      "frame": "joao/4",
+      "sourceHeight": 263,
+      "previousHeight": 109,
+      "displayHeight": 109
+    },
+    {
+      "frame": "joao/5",
+      "sourceHeight": 317,
+      "previousHeight": 131,
+      "displayHeight": 131
+    },
+    {
+      "frame": "joao/6",
+      "sourceHeight": 293,
+      "previousHeight": 116,
+      "displayHeight": 116
+    },
+    {
+      "frame": "joao/7",
+      "sourceHeight": 350,
+      "previousHeight": 137,
+      "displayHeight": 137
+    },
+    {
+      "frame": "joao/8",
+      "sourceHeight": 302,
+      "previousHeight": 128,
+      "displayHeight": 128
+    },
+    {
+      "frame": "joao/9",
+      "sourceHeight": 299,
+      "previousHeight": 126,
+      "displayHeight": 126
+    },
+    {
+      "frame": "joao/10",
+      "sourceHeight": 331,
+      "previousHeight": 140,
+      "displayHeight": 140
+    },
+    {
+      "frame": "joao/11",
+      "sourceHeight": 297,
+      "previousHeight": 121,
+      "displayHeight": 121
+    },
+    {
+      "frame": "joao/12",
+      "sourceHeight": 300,
+      "previousHeight": 138,
+      "displayHeight": 138
+    },
+    {
+      "frame": "joao/13",
+      "sourceHeight": 288,
+      "previousHeight": 129,
+      "displayHeight": 129
+    },
+    {
+      "frame": "joao/14",
+      "sourceHeight": 293,
+      "previousHeight": 131,
+      "displayHeight": 131
+    },
+    {
+      "frame": "joao/15",
+      "sourceHeight": 111,
+      "previousHeight": 47,
+      "displayHeight": 47
+    }
+  ]
+}
