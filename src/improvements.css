@@ -10,6 +10,8 @@
 canvas,.real-portrait{image-rendering:auto}
 .menu-fighters{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:52%;height:55%;right:1%;gap:0}
 .menu-fighters .real-portrait{width:100%;min-width:0;background-size:contain}
+.menu-fighters{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:56%;height:64%;right:1.5%;bottom:6%;gap:0;background:url('/assets/portraits/menu-brawl.png') center bottom/contain no-repeat}
+.menu-fighters .real-portrait{width:100%;min-width:0;background-image:url('/assets/portraits/menu-brawl.png');background-size:contain;opacity:0}
 .real-portrait.joao{background-image:url('/assets/portraits/joao-menu-v2.png')}
 .fighter-card>.real-portrait.joao{background-image:url('/assets/portraits/joao-bust.png')}
 .menu-copy>.text-button{display:inline-block;margin-right:1.2cqw;padding:.8cqw 0;font-size:.85cqw}

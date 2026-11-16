@@ -15,7 +15,8 @@ import { C, FIGHTERS, STAGES, type FighterId } from './data/config';
 import { Synth } from './audio/synth';
 import { showMoveGuide } from './ui/moveGuide';
 
-const input=new InputManager(),audio=new Synth(),scene=new ArenaScene();
+const existing=(window as {__fightNerds?:{inspect:()=>unknown}}).__fightNerds;
+const input=existing?(existing.inspect() as {input:InputManager}).input:new InputManager(),audio=new Synth(),scene=new ArenaScene();
 const overlay=document.querySelector<HTMLDivElement>('#overlay')!;
 let sim=new Simulation(),mode:'ai'|'local'|'training'='ai',difficulty:Difficulty='normal';
 let ids:[FighterId,FighterId]=['kaio','luma'],stage=0,screen='boot',paused=false,accumulator=0;
@@ -31,8 +32,8 @@ function syncAudio(){audio.volume=input.prefs.volume;audio.muted=input.prefs.mut
 function setStage(n:number){stage=n;scene.selectStage(n);}
 function attract(){scene.attract=true;scene.sim=new Simulation();scene.sim.fighters[0].x=850;scene.sim.fighters[1].x=1130;scene.sim.fighters[0].state='idle';}
 async function fullscreen(){const c=$('cabinet');if(c.classList.contains('expanded')){c.classList.remove('expanded');fullButton.textContent='TELA CHEIA';return;}try{if(document.fullscreenElement)await document.exitFullscreen();else if(c.requestFullscreen)await c.requestFullscreen();else c.classList.toggle('expanded');}catch{c.classList.toggle('expanded');}fullButton.textContent=document.fullscreenElement||c.classList.contains('expanded')?'SAIR DA TELA CHEIA':'TELA CHEIA';}
-const fullButton=document.createElement('button');fullButton.id='fullscreen';fullButton.textContent='TELA CHEIA';$('cabinet').append(fullButton);fullButton.onclick=()=>void fullscreen();
-document.addEventListener('fullscreenchange',()=>{fullButton.textContent=document.fullscreenElement?'SAIR DA TELA CHEIA':'TELA CHEIA';window.dispatchEvent(new Event('resize'));});
+const fullButton=document.getElementById('fullscreen') as HTMLButtonElement??document.createElement('button');if(!existing){fullButton.id='fullscreen';fullButton.textContent='TELA CHEIA';$('cabinet').append(fullButton);fullButton.onclick=()=>void fullscreen();
+document.addEventListener('fullscreenchange',()=>{fullButton.textContent=document.fullscreenElement?'SAIR DA TELA CHEIA':'TELA CHEIA';window.dispatchEvent(new Event('resize'));});}
 function menu(){
   if(!scene.ready)return;
   screen='menu';paused=false;input.clear();input.usedPads.clear();scene.sprites.forEach(s=>s.setVisible(false));setStage(0);attract();
@@ -46,9 +47,9 @@ function selection(){
   setOverlay(`<div class="selection"><div class="section-head"><div><div class="tag">PREPARE SEU ROUND</div><h2>ESCOLHA SUA LUTA<span>.</span></h2></div><button id="back" class="back">← MENU</button></div><div class="mode-tabs">${[['ai','VERSUS IA','01'],['local','VERSUS LOCAL','02'],['training','TREINAMENTO','03']].map(([m,n,k])=>`<button class="${mode===m?'selected':''}" data-mode="${m}"><small>${k}</small>${n}</button>`).join('')}</div><div class="selection-grid">${[0,1].map(p=>`<div class="fighter-select"><div class="field-label">${p?'OPONENTE / JOGADOR 2':'SEU LUTADOR / JOGADOR 1'}</div><canvas class="selection-preview" width="210" height="150" aria-label="Lutador selecionado"></canvas><div class="fighter-choices">${(['kaio','luma','joao'] as const).map(id=>`<button data-player="${p}" data-fighter="${id}" class="fighter-card ${ids[p]===id?'selected':''} ${id}">${portrait(id)}<span>${FIGHTERS[id].name}<small>${FIGHTERS[id].style}</small></span></button>`).join('')}</div></div>`).join('')}<div class="stage-select"><div class="field-label">ARENA / ${String(stage+1).padStart(2,'0')}</div>${STAGES.map((s,i)=>`<button class="stage-card stage-${i} ${stage===i?'selected':''}" data-stage="${i}"><b>${s.name}</b><small>${s.area}</small><span>↗</span></button>`).join('')}</div></div>${deviceFields(input)}<div class="selection-bottom"><label>DIFICULDADE <select id="difficulty">${(['fácil','normal','difícil'] as const).map(d=>`<option ${d===difficulty?'selected':''}>${d}</option>`).join('')}</select></label><span class="hint">Mesmo personagem? Vale.<br>Seu estilo faz a diferença.</span><button class="primary" id="start">${mode==='training'?'TREINAR':'COMEÇAR ROUND'} <span>→</span></button></div></div>`,'solid-screen');
   bindDevices(overlay,input);animateSelection(overlay,ids);
   bind('back',menu);bind('start',start);
-  overlay.querySelectorAll<HTMLButtonElement>('[data-mode]').forEach(b=>b.onclick=()=>{mode=b.dataset.mode as typeof mode;selection();});
-  overlay.querySelectorAll<HTMLButtonElement>('[data-fighter]').forEach(b=>b.onclick=()=>{ids[Number(b.dataset.player)]=b.dataset.fighter as FighterId;selection();});
-  overlay.querySelectorAll<HTMLButtonElement>('[data-stage]').forEach(b=>b.onclick=()=>{setStage(Number(b.dataset.stage));selection();});
+  overlay.querySelectorAll<HTMLButtonElement>('[data-mode]').forEach(b=>b.onclick=()=>{const m=b.dataset.mode;mode=m as typeof mode;selection();overlay.querySelector<HTMLElement>(`[data-mode="${m}"]`)?.focus();});
+  overlay.querySelectorAll<HTMLButtonElement>('[data-fighter]').forEach(b=>b.onclick=()=>{const p=b.dataset.player,f=b.dataset.fighter;ids[Number(p)]=f as FighterId;selection();overlay.querySelector<HTMLElement>(`[data-player="${p}"][data-fighter="${f}"]`)?.focus();});
+  overlay.querySelectorAll<HTMLButtonElement>('[data-stage]').forEach(b=>b.onclick=()=>{const s=b.dataset.stage;setStage(Number(s));selection();overlay.querySelector<HTMLElement>(`[data-stage="${s}"]`)?.focus();});
   ($('difficulty').parentElement as HTMLElement).hidden=mode==='local';
   $('difficulty').onchange=e=>difficulty=(e.target as HTMLSelectElement).value as Difficulty;
 }
@@ -95,7 +96,7 @@ function settings(back:()=>void){
   const conflict=()=>{const keys=p.keys.flatMap(Object.values);const duplicates=[...new Set(keys.filter((k,i)=>keys.indexOf(k)!==i||['Escape','Enter','Period',p.reset].includes(k)))];const padDup=p.buttons.some(m=>new Set(Object.values(m)).size<10);$('conflicts').textContent=duplicates.length||padDup?`Conflitos: ${duplicates.map(keyName).join(', ')}${padDup?' · Botões de controle repetidos':''}. Ajuste para evitar ações simultâneas.`:'Sem conflitos de teclas.';};conflict();
   bind('settings-back',()=>{input.capture=null;padCapture=null;screen=previousScreen;back();});
   overlay.querySelectorAll<HTMLButtonElement>('[data-key-player]').forEach(b=>b.onclick=()=>{const original=b.textContent;b.textContent='ESC cancela';input.onCancelCapture=()=>{b.textContent=original;};input.capture=code=>{const player=Number(b.dataset.keyPlayer),action=b.dataset.action as Action,error=code===p.reset?'Tecla reservada ao treino.':keyConflict(p.keys,code,player,action);if(error){b.textContent=keyName(p.keys[player][action]);$('conflicts').textContent=error;return;}p.keys[player][action]=code;b.textContent=keyName(code);input.save();conflict();};});
-  overlay.querySelectorAll<HTMLButtonElement>('[data-pad-player]').forEach(b=>b.onclick=()=>{if(input.prefs.devices[Number(b.dataset.padPlayer)]==='keyboard'){$('conflicts').textContent='Selecione um controle para este jogador primeiro.';return;}b.textContent='APERTE / ESC cancela';padCapture={armed:false,player:Number(b.dataset.padPlayer),action:b.dataset.action as Action,button:b};});
+  overlay.querySelectorAll<HTMLButtonElement>('[data-pad-player]').forEach(b=>b.onclick=()=>{const player=Number(b.dataset.padPlayer);if(!input.padForPlayer(player)){$('conflicts').textContent='Selecione um controle para este jogador primeiro.';return;}b.textContent='APERTE / ESC cancela';padCapture={armed:false,player,action:b.dataset.action as Action,button:b};});
   bind('reset-key',()=>{input.onCancelCapture=()=>{$('reset-key').textContent='REINICIAR TREINO: '+keyName(p.reset);};input.capture=code=>{const error=keyConflict(p.keys,code);if(error){$('conflicts').textContent=error;$('reset-key').textContent='REINICIAR TREINO: '+keyName(p.reset);return;}p.reset=code;$('reset-key').textContent=`REINICIAR TREINO: ${keyName(code)}`;input.save();conflict();};$('reset-key').textContent='PRESSIONE UMA TECLA';});
   for(const [id,key] of [['volume','volume'],['deadzone','deadzone']] as const)$(id).oninput=e=>{p[key]=Number((e.target as HTMLInputElement).value);input.save();syncAudio();};
   for(const [id,key] of [['shake','shake'],['flashes','reduceFlash'],['accessible','accessible'],['blood','blood']] as const)$(id).onchange=e=>{p[key]=(e.target as HTMLInputElement).checked;input.save();};
@@ -111,29 +112,32 @@ function tick(force=false){
   sim.step(inputs);scene.consume(sim.events);sim.events.forEach(e=>audio.play(e));
   if(sim.phase==='result')result();
 }
-const menuNavigation=installNavigation(overlay,()=>!input.capture&&!padCapture&&(screen!=='fight'||paused),()=>{if(padCapture){padCapture.button.textContent='CANCELADO';padCapture=null;return;}const back=overlay.querySelector<HTMLButtonElement>('#guide-back,#preview-close,#settings-back,#lab-done,#back,#result-menu,#resume');if(back)back.click();else if(screen==='selection')menu();});
+const menuNavigation=existing?()=>{}:installNavigation(overlay,()=>!input.capture&&!padCapture&&(screen!=='fight'||paused),()=>{if(padCapture){padCapture.button.textContent='CANCELADO';padCapture=null;return;}const back=overlay.querySelector<HTMLButtonElement>('#guide-back,#preview-close,#settings-back,#lab-done,#back,#result-menu,#resume');if(back)back.click();else if(screen==='selection')menu();});
 scene.onTick=dt=>{
-  scene.blood=input.prefs.blood;const winner=sim.winner??0;scene.finisherHint=input.prefs.devices[winner]==='keyboard'?keyName(input.prefs.keys[winner].hp)+' + '+keyName(input.prefs.keys[winner].hk):'B'+input.prefs.buttons[winner].hp+' + B'+input.prefs.buttons[winner].hk;
+  const winner=sim.winner??0,winPad=input.padForPlayer(winner),usePadHint=input.prefs.devices[winner]!=='keyboard'||(winPad&&input.usedPads.has(winPad.index));
+  scene.blood=input.prefs.blood;scene.finisherHint=usePadHint?'B'+input.prefs.buttons[winner].hp+' + B'+input.prefs.buttons[winner].hk:keyName(input.prefs.keys[winner].hp)+' + '+keyName(input.prefs.keys[winner].hk);
   scene.visualPaused=screen==='fight'&&paused||screen==='settings'||screen==='training-options'||screen==='gallery'||screen==='guide';
   scene.reduceFlash=input.prefs.reduceFlash;scene.shake=input.prefs.shake&&!matchMedia('(prefers-reduced-motion: reduce)').matches;
   menuNavigation();
-  if(padCapture){const pad=input.pads().find(p=>input.prefs.devices[padCapture!.player]===`pad:${p.index}`);const n=pad?.buttons.findIndex(b=>b.pressed)??-1;if(!padCapture.armed){if(n<0)padCapture.armed=true;return;}if(n>=0){if(n===9||ACTIONS.some(a=>a!==padCapture!.action&&input.prefs.buttons[padCapture!.player][a]===n)){padCapture.button.textContent='B'+input.prefs.buttons[padCapture.player][padCapture.action];$('conflicts').textContent='Botao reservado ou ja atribuido a outra acao.';padCapture=null;return;}input.prefs.buttons[padCapture.player][padCapture.action]=n;padCapture.button.textContent=`B${n}`;input.save();padCapture=null;}}
+  if(padCapture){const pad=input.padForPlayer(padCapture.player);const n=pad?.buttons.findIndex(b=>b.pressed)??-1;if(!padCapture.armed){if(n<0)padCapture.armed=true;return;}if(n>=0){if(n===9||ACTIONS.some(a=>a!==padCapture!.action&&input.prefs.buttons[padCapture!.player][a]===n)){padCapture.button.textContent='B'+input.prefs.buttons[padCapture.player][padCapture.action];$('conflicts').textContent='Botao reservado ou ja atribuido a outra acao.';padCapture=null;return;}input.prefs.buttons[padCapture.player][padCapture.action]=n;padCapture.button.textContent=`B${n}`;input.save();padCapture=null;}}
   if(screen!=='fight'||paused){input.read();return;}
   scene.reduceFlash=input.prefs.reduceFlash;scene.shake=input.prefs.shake;
   accumulator+=Math.min(dt,160)*(sim.training?.speed??1);let updates=0;
   while(accumulator>=1000/C.hz&&updates<C.maxUpdates&&screen==='fight'&&!paused){tick();accumulator-=1000/C.hz;updates++;}
   if(updates===C.maxUpdates)accumulator=0;
 };
-input.isGameplay=()=>screen==='fight';
-input.onPause=()=>{if(padCapture){padCapture.button.textContent='B'+input.prefs.buttons[padCapture.player][padCapture.action];padCapture=null;}else togglePause();};input.onSuspend=()=>togglePause(true);input.onReset=resetTraining;input.onStep=stepOne;
-input.onConfirm=()=>{if(screen==='menu')selection();else if(screen==='selection')start();else if(screen==='result')start();else if(paused&&screen==='fight')togglePause();};
-input.onShortcut=id=>{
-  if(screen!=='fight'||paused||!(mode==='training'||input.prefs.accessible))return;
-  const helper=new AI();helper.motion(sim.fighters[0].facing,id==='super'?[2,3,6,2,3,6]:id==='uppercut'?[6,2,3]:id==='advance'?[2,1,4]:[2,3,6],id!=='advance');shortcut=helper.sequence;
-};
-input.onPadChange=()=>{if(screen==='selection')selection();else if(screen==='settings'){const fields=overlay.querySelector('.device-fields');if(fields){fields.outerHTML=deviceFields(input);bindDevices(overlay,input);}}const count=Array.from(navigator.getGamepads?.()??[]).filter(Boolean).length;$('pads').textContent=count?`${count} CONTROLE${count>1?'S':''} CONECTADO${count>1?'S':''}`:'TECLADO CONECTADO';};
-bind('sound',()=>{audio.unlock();input.prefs.mute=!input.prefs.mute;input.save();syncAudio();});
-bind('home',menu);syncAudio();input.onPadChange();
+if(!existing){
+  input.isGameplay=()=>screen==='fight';
+  input.onPause=()=>{if(padCapture){padCapture.button.textContent='B'+input.prefs.buttons[padCapture.player][padCapture.action];padCapture=null;}else togglePause();};input.onSuspend=()=>togglePause(true);input.onReset=resetTraining;input.onStep=stepOne;
+  input.onConfirm=()=>{if(screen==='menu')selection();else if(screen==='selection')start();else if(screen==='result')start();else if(paused&&screen==='fight')togglePause();};
+  input.onShortcut=id=>{
+    if(screen!=='fight'||paused||!(mode==='training'||input.prefs.accessible))return;
+    const helper=new AI();helper.motion(sim.fighters[0].facing,id==='super'?[2,3,6,2,3,6]:id==='uppercut'?[6,2,3]:id==='advance'?[2,1,4]:[2,3,6],id!=='advance');shortcut=helper.sequence;
+  };
+  input.onPadChange=()=>{if(screen==='selection'||screen==='settings'){const fields=overlay.querySelector('.device-fields');if(fields){fields.outerHTML=deviceFields(input);bindDevices(overlay,input);}}const count=input.pads().length;$('pads').textContent=count?`${count} CONTROLE${count>1?'S':''} CONECTADO${count>1?'S':''}`:'TECLADO CONECTADO';};
+  bind('sound',()=>{audio.unlock();input.prefs.mute=!input.prefs.mute;input.save();syncAudio();});
+  bind('home',menu);syncAudio();input.onPadChange();
+}
 async function boot(){
   setOverlay('<div class="settings"><h2>FIGHT NERDS</h2><p id="loading-status" role="status">CARREGANDO...</p></div>','solid-screen');
   scene.onReady=menu;
@@ -143,7 +147,6 @@ async function boot(){
   const game=new Phaser.Game({type:Phaser.AUTO,parent:'game',width:C.width*initialScale,height:C.height*initialScale,pixelArt:false,antialias:true,backgroundColor:'#151823',scale:{mode:Phaser.Scale.FIT,autoCenter:Phaser.Scale.CENTER_BOTH},scene:[scene],audio:{noAudio:true}});
   window.addEventListener('resize',()=>{const scale=renderScale();if(game.scale.width!==C.width*scale){game.scale.setGameSize(C.width*scale,C.height*scale);if(scene.ready)scene.setRenderScale(scale);}});
 }
-void boot();
 // Read-only access to the running instance for local development and browser QA.
-export function inspect(){return {sim,screen,paused,input,scene};}
-if(import.meta.env.DEV)Object.defineProperty(window,'__fightNerds',{value:{inspect},configurable:true});
+export function inspect(){return (existing?.inspect()??{sim,screen,paused,input,scene}) as {sim:typeof sim;screen:typeof screen;paused:typeof paused;input:typeof input;scene:typeof scene};}
+if(!existing){void boot();if(import.meta.env.DEV)Object.defineProperty(window,'__fightNerds',{value:{inspect},configurable:true});}

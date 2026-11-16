@@ -32,6 +32,7 @@ export class ArenaScene extends Phaser.Scene {
     text('announce', 480, 190, 55, '#f6e9ce', 'center'); text('sub', 480, 254, 16, '#f6e9ce', 'center'); text('combo0', 57, 127, 23, '#f4b85d'); text('combo1', 903, 127, 23, '#74ddd1', 'right');
     text('meter0', 48, 511, 10); text('meter1', 912, 511, 10, '#f5ecd8', 'right'); text('debug', 20, 326, 11, '#c7e5e5');
     this.setRenderScale(this.scale.width / C.width);
+    ['kaio', 'luma', 'joao', 'menu-kaio', 'menu-luma', 'menu-joao', 'portrait-kaio', 'portrait-luma', 'portrait-joao'].forEach(k => { if (this.textures.exists(k)) this.textures.get(k).setFilter(Phaser.Textures.FilterMode.NEAREST); });
     this.drawStage(); this.ready = true; this.onReady();
   }
   selectStage(index: number) { this.stage = index; if (this.bg) this.drawStage(); }

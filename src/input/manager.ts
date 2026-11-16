@@ -19,9 +19,10 @@ export function loadPreferences():Preferences {
 }
 export class InputManager {
   prefs=loadPreferences(); held=new Set<string>(); usedPads=new Set<number>(); blockedPads=new Set<number>(); padStart=false; capture:((code:string)=>void)|null=null;
-  isGameplay=()=>true;onCancelCapture=()=>{};lostPads=new Set<number>();
+  isGameplay=()=>true;onCancelCapture=()=>{};lostPads=new Set<number>();lastPadSignature='';
   onPause=()=>{}; onSuspend=()=>{}; onReset=()=>{}; onStep=()=>{}; onConfirm=()=>{}; onPadChange=()=>{}; onShortcut=(_id:string)=>{};
   constructor(){
+    this.lastPadSignature=this.pads().map(p=>`${p.index}:${p.id}`).join('|');
     window.addEventListener('keydown',e=>{
       if((e.target as HTMLElement)?.matches('input,select,textarea'))return;
       if(this.capture){e.preventDefault();const cb=this.capture;this.capture=null;if(e.code==='Escape')this.onCancelCapture();else cb(e.code);return;}
@@ -33,13 +34,21 @@ export class InputManager {
     window.addEventListener('keyup',e=>this.held.delete(e.code));
     window.addEventListener('blur',()=>{this.clear();this.onSuspend();});
     document.addEventListener('visibilitychange',()=>{if(document.hidden){this.clear();this.onSuspend();}});
-    window.addEventListener('gamepadconnected',()=>this.onPadChange());
-    window.addEventListener('gamepaddisconnected',e=>{const i=(e as GamepadEvent).gamepad.index;if(this.prefs.devices.includes(`pad:${i}`)){this.lostPads.add(i);this.onSuspend();}this.clear();this.onPadChange();});
+    window.addEventListener('gamepadconnected',()=>{this.lastPadSignature=this.pads().map(p=>`${p.index}:${p.id}`).join('|');this.onPadChange();});
+    window.addEventListener('gamepaddisconnected',e=>{const i=(e as GamepadEvent).gamepad.index;if(this.prefs.devices.includes(`pad:${i}`)){this.lostPads.add(i);this.onSuspend();}this.clear();this.lastPadSignature=this.pads().map(p=>`${p.index}:${p.id}`).join('|');this.onPadChange();});
   }
   restore(){this.prefs=structuredClone(defaults);this.lostPads.clear();this.clear();this.save();}
   save(){try{localStorage.setItem('fight-nerds-settings',JSON.stringify(this.prefs));}catch{/* Private mode can disable storage; session preferences still work. */}}
-  clear(){this.held.clear();Array.from(navigator.getGamepads?.()??[]).forEach(p=>{if(p)this.blockedPads.add(p.index);});}
-  pads(){return Array.from(navigator.getGamepads?.()??[]).filter((p):p is Gamepad=>!!p);}
+  clear(){this.held.clear();this.pads().forEach(p=>{if(p.buttons.some((b,idx)=>idx<=5&&b.pressed))this.blockedPads.add(p.index);});}
+  pads(){return Array.from(navigator.getGamepads?.()??[]).filter((p):p is Gamepad=>!!p&&p.connected!==false);}
+  padForPlayer(player:number):Gamepad|undefined{
+    const pads=this.pads(),dev=this.prefs.devices[player];
+    if(dev!=='keyboard'){const idx=Number(dev.slice(4));return this.lostPads.has(idx)?undefined:pads.find(p=>p.index===idx);}
+    const unassigned=pads.filter(p=>!this.prefs.devices.includes(`pad:${p.index}`)&&!this.lostPads.has(p.index));
+    const keyboardSlots=[0,1].filter(i=>this.prefs.devices[i]==='keyboard');
+    const pos=keyboardSlots.indexOf(player);
+    return pos>=0?unassigned[pos]:undefined;
+  }
   assign(player:number,source:string):string|null{
     if(source!=='keyboard'&&this.prefs.devices[1-player]===source)return 'Controle ja atribuido ao outro jogador.';
     if(source!=='keyboard'&&!this.pads().some(p=>source===`pad:${p.index}`))return 'Controle desconectado.';
@@ -47,23 +56,52 @@ export class InputManager {
   }
   ready(){return this.prefs.devices.every(d=>d==='keyboard'||!this.lostPads.has(Number(d.slice(4)))&&this.pads().some(p=>d===`pad:${p.index}`));}
   read():[Input,Input]{
-    const pads=Array.from(navigator.getGamepads?.()??[]).filter((p):p is Gamepad=>!!p);
+    const pads=this.pads(),sig=pads.map(p=>`${p.index}:${p.id}`).join('|');
+    if(sig!==this.lastPadSignature){this.lastPadSignature=sig;this.onPadChange();}
     const result=this.prefs.keys.map((mapping,index)=>{const i=neutral();if(this.prefs.devices[index]==='keyboard')ACTIONS.forEach(a=>i[a]=this.held.has(mapping[a]));return i;}) as [Input,Input];
     let start=false;
-
-    pads.forEach(pad=>{const index=this.prefs.devices.indexOf(`pad:${pad.index}`);if(index<0||this.lostPads.has(pad.index))return;
+    pads.forEach(p=>{start ||= !!p.buttons[9]?.pressed;});
+    for(const index of [0,1] as const){
+      const pad=this.padForPlayer(index);if(!pad)continue;
+      const mapping=this.prefs.buttons[index];
+      const attackBtns=['lp','mp','hp','lk','mk','hk'].map(a=>mapping[a as Action]);
       if(this.blockedPads.has(pad.index)){
-        if(pad.buttons.some(b=>b.pressed)||pad.axes.slice(0,2).some(a=>Math.abs(a)>this.prefs.deadzone))return;
-        this.blockedPads.delete(pad.index);
+        if(!attackBtns.some(b=>pad.buttons[b]?.pressed)&&!pad.buttons[0]?.pressed)this.blockedPads.delete(pad.index);
       }
-      const i=result[index],mapping=this.prefs.buttons[index];
-      ACTIONS.forEach(a=>{i[a] ||= !!pad.buttons[mapping[a]]?.pressed;});
+      const blocked=this.blockedPads.has(pad.index),i=result[index],usedBtns=Object.values(mapping);
+      ACTIONS.forEach(a=>{
+        if(blocked&&['lp','mp','hp','lk','mk','hk'].includes(a))return;
+        const btn=pad.buttons[mapping[a]];
+        i[a] ||= !!(btn&&(btn.pressed||btn.value>.5));
+      });
+      if(!blocked){
+        if(!usedBtns.includes(6)&&(pad.buttons[6]?.pressed||(pad.buttons[6]?.value??0)>.5))i.hp=true;
+        if(!usedBtns.includes(7)&&(pad.buttons[7]?.pressed||(pad.buttons[7]?.value??0)>.5))i.hk=true;
+      }
+      if(!usedBtns.includes(14)&&pad.buttons[14]?.pressed)i.left=true;
+      if(!usedBtns.includes(15)&&pad.buttons[15]?.pressed)i.right=true;
+      if(!usedBtns.includes(12)&&pad.buttons[12]?.pressed)i.up=true;
+      if(!usedBtns.includes(13)&&pad.buttons[13]?.pressed)i.down=true;
       i.left ||= (pad.axes[0]??0)<-this.prefs.deadzone;i.right ||= (pad.axes[0]??0)>this.prefs.deadzone;
       i.up ||= (pad.axes[1]??0)<-this.prefs.deadzone;i.down ||= (pad.axes[1]??0)>this.prefs.deadzone;
+      if(pad.mapping!=='standard'){
+        if(pad.axes.length>=8){
+          i.left ||= (pad.axes[6]??0)<-this.prefs.deadzone;i.right ||= (pad.axes[6]??0)>this.prefs.deadzone;
+          i.up ||= (pad.axes[7]??0)<-this.prefs.deadzone;i.down ||= (pad.axes[7]??0)>this.prefs.deadzone;
+        }
+        const hat=pad.axes[9];
+        if(typeof hat==='number'&&Math.abs(hat)>.05&&Math.abs(hat)<=1.05){
+          const dir=Math.round((hat+1)*3.5);
+          if(dir===0||dir===1||dir===7)i.up=true;
+          if(dir===1||dir===2||dir===3)i.right=true;
+          if(dir===3||dir===4||dir===5)i.down=true;
+          if(dir===5||dir===6||dir===7)i.left=true;
+        }
+      }
       if(ACTIONS.some(a=>i[a]))this.usedPads.add(pad.index);
-      start ||= !!pad.buttons[9]?.pressed;
-    });
-    if(start&&!this.padStart)this.onPause();this.padStart=start;
+    }
+    if(start&&!this.padStart){if(this.isGameplay())this.onPause();else this.onConfirm();}
+    this.padStart=start;
     return result;
   }
 }
